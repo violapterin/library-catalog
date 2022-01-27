@@ -1,26 +1,34 @@
 #! /usr/bin/env bash
 
+cd "$(dirname $0)"
 if [ ! command -v gs &> /dev/null ]; then
-   echo "Please install ghostscript."; exit
+   echo "Please install ghostscript."
+   exit
 fi
 if [ -z "$1" ]; then
-   echo "Please provide the size of paper."; exit
+   echo "Please provide the paper size."
+   exit
 fi
 if [ -z "$2" ]; then
-   echo "Please provide the input filename."; exit
+   echo "Please provide the input file."
+   exit
 fi
-if [ -z "$3" ]; then
-   echo "Please provide the output filename."; exit
+if [ -z "$2" ]; then
+   echo "Please provide the output filename."
+   exit
 fi
 if [ ! -f "$2" ]; then
-   echo "File $2 not found."; exit
+   echo "Input file $2 not found."; exit
 fi
-cd "$(dirname $0)"
 
 RESOLUTION=300
 PAPER="$1"
 IN="$2"
 OUT="$3"
+loud_pruning=
+if [ "$5" -eq 0 ]; then
+   loud_pruning="-dQUIET"
+fi
 
 set -x
 gs \
@@ -29,15 +37,10 @@ gs \
    -dSAFER \
    -dBATCH \
    -dNOPAUSE \
-   -dQUIET \
-   -sPAPERSIZE=${PAPER} \
    -dFIXEDMEDIA \
    -dPDFFitPage \
    -dAutoRotatePages=/All \
    -dDetectDuplicateImages=true \
-   -dColorImageResolution=${RESOLUTION} \
-   -dGrayImageResolution=${RESOLUTION} \
-   -dMonoImageResolution=${RESOLUTION} \
    -dColorImageDownsampleThreshold=1.0 \
    -dGrayImageDownsampleThreshold=1.0 \
    -dMonoImageDownsampleThreshold=1.0 \
@@ -52,6 +55,11 @@ gs \
    -dMonoImageFilter=/CCITTFaxEncode \
    -dOptimize=true \
    -dCompressPages=true \
+   "${loud_pruning}" \
+   -sPAPERSIZE="${PAPER}" \
+   -dColorImageResolution="${RESOLUTION}" \
+   -dGrayImageResolution="${RESOLUTION}" \
+   -dMonoImageResolution="${RESOLUTION}" \
    -sOutputFile="${OUT}" \
    "${IN}"
 { set +x; } 2>/dev/null

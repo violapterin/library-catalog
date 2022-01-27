@@ -1,34 +1,42 @@
 #! /usr/bin/env bash
 
-if [ ! command -v gs &> /dev/null ]; then
-   echo "Please install ghostscript."
-   exit
+cd "$(dirname $0)"
+if [ ! -f ./prune-all.sh ]; then
+   echo "Script prune.sh is not found."
+   exit 1
 fi
 if [ ! command -v pdfsizeopt &> /dev/null ]; then
    echo "Please install pdfsizeopt."
-   exit
-fi
-if [ ! -f prune-all.sh ]; then
-   echo "Script prune.sh is not found."
-   exit
+   exit 1
 fi
 if [ -z "$1" ]; then
-   echo "Please provide the size of paper."
-   exit
+   echo "Please provide the paper size."
+   exit 1
 fi
 if [ -z "$2" ]; then
    echo "Please provide the input directory."
-   exit
+   exit 1
 fi
 if [ -z "$3" ]; then
    echo "Please provide the temporary directory."
-   exit
+   exit 1
 fi
 if [ -z "$4" ]; then
    echo "Please provide the output directory."
-   exit
+   exit 1
 fi
-cd "$(dirname $0)"
+if [ ! -d "$2" ]; then
+   echo "Input directory $2 is not found."
+   exit 1
+fi
+if [ ! -d "$3" ]; then
+   echo "Temporary directory $3 is not found."
+   exit 1
+fi
+if [ ! -d "$4" ]; then
+   echo "Output directory $4 is not found."
+   exit 1
+fi
 
 RESOLUTION=300
 PAPER="$1"
@@ -43,7 +51,7 @@ echo "= = = = = = = = = = = = = = = = = = = = = = = ="
 echo "Pruning PDFs ..."
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
-./prune-all.sh "${PAPER}" "${FOLDER_IN}" "${FOLDER_MID}"
+./prune-all.sh "${loud_pruning}" "${PAPER}" "${FOLDER_IN}" "${FOLDER_MID}" "${LOUD}"
 
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
@@ -59,13 +67,18 @@ for path_in in "${FOLDER_MID}"/*; do
    extension="${name##*.}"
    path_out="${FOLDER_OUT}/${bare}.pdf"
 
-   if [ "${extension}" = pdf ]; then   if [ ! -f $path_in ]; then
-      echo "optimizing document" "${path_in}" "with Pdfsizeopt..."
-      #((index=index%PARALLEL))
-      #((index++==0)) && wait
-      rm -f "${path_out}"
-      set -x
-      pdfsizeopt --quiet "${path_in}" "${path_out}"
-      { set +x; } 2>/dev/null
+   if [ "${extension}" != "pdf" ]; then
+      continue
    fi
+   echo "optimizing document" "${path_in}" "with Pdfsizeopt..."
+   loud_optimizing=
+   if [ "$5" -eq 0 ]; then
+      loud_optimizing="--quiet"
+   fi
+   #((index=index%PARALLEL))
+   #((index++==0)) && wait
+   rm -f "${path_out}"
+   set -x
+   pdfsizeopt "${flag_loud}" "${path_in}" "${path_out}"
+   { set +x; } 2>/dev/null
 done
