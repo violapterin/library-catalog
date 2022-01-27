@@ -1,8 +1,8 @@
 #! /usr/bin/env bash
 
 cd "$(dirname $0)"
-if [ ! -f ./optimiza-all.sh ]; then
-   echo "Script optimiza-all.sh is not found."
+if [ ! -f ./optimize-all.sh ]; then
+   echo "Script optimize-all.sh is not found."
    exit 1
 fi
 

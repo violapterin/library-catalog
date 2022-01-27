@@ -3,22 +3,23 @@
 cd "$(dirname $0)"
 if [ ! command -v gs &> /dev/null ]; then
    echo "Please install ghostscript."
-   exit
+   exit 1
 fi
 if [ -z "$1" ]; then
    echo "Please provide the paper size."
-   exit
+   exit 1
 fi
 if [ -z "$2" ]; then
    echo "Please provide the input file."
-   exit
+   exit 1
 fi
 if [ -z "$2" ]; then
    echo "Please provide the output filename."
-   exit
+   exit 1
 fi
 if [ ! -f "$2" ]; then
-   echo "Input file $2 not found."; exit
+   echo "Second input file $2 is not found."
+   exit 1
 fi
 
 RESOLUTION=300
@@ -26,12 +27,16 @@ PAPER="$1"
 IN="$2"
 OUT="$3"
 loud_pruning=
-if [ "$5" -eq 0 ]; then
+if [ "$4" = "0" ]; then
    loud_pruning="-dQUIET"
 fi
 
+main="gs"
+if [ "$4" = "0" ]; then
+   main="gs -dQUIET"
+fi
 set -x
-gs \
+${main} \
    -sDEVICE=pdfwrite \
    -dCompatibilityLevel=1.7 \
    -dSAFER \
@@ -55,7 +60,6 @@ gs \
    -dMonoImageFilter=/CCITTFaxEncode \
    -dOptimize=true \
    -dCompressPages=true \
-   "${loud_pruning}" \
    -sPAPERSIZE="${PAPER}" \
    -dColorImageResolution="${RESOLUTION}" \
    -dGrayImageResolution="${RESOLUTION}" \

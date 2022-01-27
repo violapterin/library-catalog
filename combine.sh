@@ -21,41 +21,34 @@ if [ -z "$4" ]; then
    echo "Please provide the output filename."
    exit 1
 fi
-if [ ! -f "$1" ]; then
-   echo "First input file $1 is not found."
+if [ ! -f "$2" ]; then
+   echo "First input file $2 is not found."
    exit 1
 fi
-if [ ! -f "$2" ]; then
-   echo "Second input file $2 is not found."
+if [ ! -f "$3" ]; then
+   echo "Second input file $3 is not found."
    exit 1
 fi
 
 RESOLUTION=300
 PAPER="$1"
-FOLDER_IN="$2"
-FOLDER_MID="$3"
-FOLDER_OUT="$4"
+IN="$2"
+MID="$3"
+OUT="$4"
 
-name="${path_in##*/}"
-bare="${name%.*}"
-extension="${name##*.}"
-path_mid="${FOLDER_MID}/${bare}.pdf"
-path_out="${FOLDER_OUT}/${bare}.pdf"
-
-if [ "${extension}" != pdf ]; then
-   continue
-fi
-echo "combining document" "${path_in}" "and" "${path_in}" "..."
+echo "combining document" "${MID}" "and" "${OUT}" "..."
 rm -f "${path_out}"
+set -x
 gs \
    -sDEVICE=pdfwrite \
    -dCompatibilityLevel=1.7 \
    -dSAFER \
    -dBATCH \
    -dNOPAUSE \
-   -dQUIET \
-   -sPAPERSIZE=${PAPER} \
    -dFIXEDMEDIA \
    -dPDFFitPage \
-   -sOutputFile="${path_out}" \
-   "${path_in}" "${path_mid}"
+   -dQUIET \
+   -sPAPERSIZE=${PAPER} \
+   -sOutputFile="${OUT}" \
+   "${IN}" "${MID}"
+{ set +x; } 2>/dev/null

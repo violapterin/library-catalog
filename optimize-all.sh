@@ -51,7 +51,9 @@ echo "= = = = = = = = = = = = = = = = = = = = = = = ="
 echo "Pruning PDFs ..."
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
-./prune-all.sh "${loud_pruning}" "${PAPER}" "${FOLDER_IN}" "${FOLDER_MID}" "${LOUD}"
+set -x
+./prune-all.sh "${PAPER}" "${FOLDER_IN}" "${FOLDER_MID}" "$5"
+{ set +x; } 2>/dev/null
 
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
 echo "= = = = = = = = = = = = = = = = = = = = = = = ="
@@ -70,15 +72,15 @@ for path_in in "${FOLDER_MID}"/*; do
    if [ "${extension}" != "pdf" ]; then
       continue
    fi
-   echo "optimizing document" "${path_in}" "with Pdfsizeopt..."
-   loud_optimizing=
-   if [ "$5" -eq 0 ]; then
-      loud_optimizing="--quiet"
+   echo "= = = optimizing document" "${path_in}" "with Pdfsizeopt..."
+   main="pdfsizeopt"
+   if [ "$5" = "0" ]; then
+      main="pdfsizeopt --quiet"
    fi
    #((index=index%PARALLEL))
    #((index++==0)) && wait
    rm -f "${path_out}"
    set -x
-   pdfsizeopt "${flag_loud}" "${path_in}" "${path_out}"
+   ${main} "${path_in}" "${path_out}"
    { set +x; } 2>/dev/null
 done

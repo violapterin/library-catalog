@@ -45,9 +45,11 @@ for path_in in "${FOLDER_IN}"/*; do
    if [ "${extension}" != pdf ]; then
       continue
    fi
-   echo "pruning document" "${path_in}" "with Ghostscript..."
+   echo "= = = pruning document" "${path_in}" "with Ghostscript..."
    #((index=index%PARALLEL))
    #((index++==0)) && wait
    rm -f "${path_out}"
-   ./prune.sh "${PAPER}" "${path_in}" "${path_out}" "$5"
+   set -x
+   ./prune.sh "${PAPER}" "${path_in}" "${path_out}" "$4"
+   { set +x; } 2>/dev/null
 done
