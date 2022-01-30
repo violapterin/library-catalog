@@ -23,13 +23,13 @@ if [ ! -f "$2" ]; then
 fi
 
 RESOLUTION=300
-NUMBER="$1"
+DELETED="$1"
 IN="$2"
 OUT="$3"
 bare="${OUT%.*}"
 
-
-if [ "${NUMBER}" -eq 1 ]; then
+echo "= = = deleting page ${DELETED} of document ${IN} ..."
+if [ "${DELETED}" -eq 1 ]; then
    set -x
    gs \
       -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \

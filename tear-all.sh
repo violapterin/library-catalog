@@ -29,8 +29,9 @@ for path_in in "${FOLDER_IN}"/*; do
    if [ "${extension}" != pdf ]; then
       continue
    fi
-   mkdir "${FOLDER_OUT}/${bare}-hold"
-   echo "combining document" "${path_in}" "and" "${path_in}" "..."
+   mkdir "${FOLDER_OUT}/${bare}"
+   echo "= = = tearing document ${path_in} and ${path_in} ..."
+   set -x
    gs \
       -sDEVICE=jpeggray \
       -dCompatibilityLevel=1.7 \
@@ -39,6 +40,7 @@ for path_in in "${FOLDER_IN}"/*; do
       -dNOPAUSE \
       -dQUIET \
       -r"${RESOLUTION}" \
-      -sOutputFile="${FOLDER_OUT}/${bare}-hold/page-%03d.jpg" \
+      -sOutputFile="${FOLDER_OUT}/${bare}/page-%03d.jpg" \
       "${path_in}"
+   { set +x; } 2>/dev/null
 done

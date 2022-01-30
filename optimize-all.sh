@@ -47,7 +47,7 @@ for path_in in "${FOLDER_IN}"/*; do
    fi
    echo "= = = optimizing document" "${path_in}" "with Pdfsizeopt..."
    main="pdfsizeopt"
-   if [ "$5" = "0" ]; then
+   if [ "$4" = "0" ]; then
       main="pdfsizeopt --quiet"
    fi
    #((index=index%PARALLEL))

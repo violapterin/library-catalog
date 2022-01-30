@@ -13,12 +13,12 @@ if [ -z "$2" ]; then
    echo "Please provide the input file."
    exit 1
 fi
-if [ -z "$2" ]; then
+if [ -z "$3" ]; then
    echo "Please provide the output filename."
    exit 1
 fi
 if [ ! -f "$2" ]; then
-   echo "Second input file $2 is not found."
+   echo "Input file $2 is not found."
    exit 1
 fi
 
