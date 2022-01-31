@@ -28,22 +28,51 @@ fi
 
 RESOLUTION=300
 PAPER="$1"
-IN="$2"
+IN="$2" # image or PDF
 OUT="$3"
 name="${IN##*/}"
 bare="${name%.*}"
-mid="${bare}-hold.pdf"
+mid_one="${bare}-x.pdf"
+mid_two="${bare}-y.pdf"
+color=
+if [ "$4" = "0" ]; then
+   color="-monochrome"
+fi
 
-echo "rasterizing document" "${IN}" "..."
-rm -f "${path_out}"
+echo "resizing document ${IN} as ${mid_one} ..."
+rm -f "${mid_one}"
 set -x
-convert \
-   -density "${RESOLUTION}" \
-   "${IN}" \
-   "${mid}"
+gs \
+   -sDEVICE=pdfwrite \
+   -dCompatibilityLevel=1.7 \
+   -dSAFER \
+   -dBATCH \
+   -dNOPAUSE \
+   -dQUIET \
+   -dFIXEDMEDIA \
+   -dPDFFitPage \
+   -sPAPERSIZE=${PAPER} \
+   -sOutputFile="${mid_one}" \
+   "${IN}"
 { set +x; } 2>/dev/null
 
-echo "resizing document" "${IN}" "..."
+echo "rasterizing document ${mid_one} as ${mid_two} ..."
+rm -f "${mid_two}"
+convert_option="convert"
+if [ "$4" = "0" ]; then
+   convert_option="convert -monochrome"
+fi
+
+set -x
+${convert_option} \
+   -density "${RESOLUTION}" \
+   -page "${PAPER}" \
+   "${mid_one}" \
+   "${mid_two}"
+{ set +x; } 2>/dev/null
+rm -f "${mid_one}"
+
+echo "resizing document" "${mid_two}" "..."
 rm -f "${OUT}"
 set -x
 gs \
@@ -52,12 +81,12 @@ gs \
    -dSAFER \
    -dBATCH \
    -dNOPAUSE \
+   -dQUIET \
    -dFIXEDMEDIA \
    -dPDFFitPage \
-   -dQUIET \
    -sPAPERSIZE=${PAPER} \
    -sOutputFile="${OUT}" \
-   "${mid}"
+   "${mid_two}"
 { set +x; } 2>/dev/null
-rm -f "${mid}"
+rm -f "${mid_two}"
 

@@ -12,9 +12,9 @@ fi
 
 RESOLUTION=300
 PAPER="$1"
-size_in="$(($#-2))" # length minus one
+size_in="$(($#-2))" # # length minus one
 MANY_IN="${@:2:$size_in}"
-OUT="${@: -1}" # keep the space
+OUT="${@: -1}" # # keep the space
 
 echo "combining document" "${MANY_IN}" "and" "${OUT}" "..."
 rm -f "${OUT}"

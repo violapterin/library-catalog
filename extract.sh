@@ -31,7 +31,6 @@ START="$1"
 STOP="$2"
 IN="$3"
 OUT="$4"
-bare="${OUT%.*}"
 
 echo "= = = extracting page ${START} from page ${STOP} of document ${IN} ..."
 set -x
@@ -40,6 +39,6 @@ gs \
    -dSAFER -dBATCH -dNOPAUSE -dQUIET \
    -dFirstPage="${START}" \
    -dLastPage="${STOP}" \
-   -sOutputFile="${bare}-x.pdf" \
+   -sOutputFile="${OUT}.pdf" \
    "${IN}"
 { set +x; } 2>/dev/null
