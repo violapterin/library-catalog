@@ -2,6 +2,7 @@
 
 main()
 {
+   HERE="$(dirname $0)"
    RESOLUTION=300
    PAPER="$1"
    FOLDER_IN="$2"
