@@ -1,11 +1,11 @@
 #! /usr/bin/env bash
 
-cd "$(dirname $0)"
-if [ ! -f ./prune.sh ]; then
+HERE="$(dirname $0)"
+if [ ! -f "${HERE}/prune.sh" ]; then
    echo "Script prune.sh is not found."
-   exit
+   exit 1
 fi
 
-LOUD=1
+SOUND=1
 
-./prune.sh "$@" "${LOUD}"
+"${HERE}/prune.sh" "$@" "${SOUND}"

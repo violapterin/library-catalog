@@ -1,11 +1,11 @@
 #! /usr/bin/env bash
 
-cd "$(dirname $0)"
-if [ ! -f ./rasterize.sh ]; then
+HERE="$(dirname $0)"
+if [ ! -f "${HERE}/rasterize.sh" ]; then
    echo "Script rasterize.sh is not found."
-   exit
+   exit 1
 fi
 
 COLOR=1
 
-./rasterize.sh "$@" "${COLOR}"
+"${HERE}/rasterize.sh" "$@" "${COLOR}"

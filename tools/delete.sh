@@ -2,8 +2,6 @@
 
 main()
 {
-   HERE="$(dirname $0)"
-   RESOLUTION=300
    DELETED="$1"
    IN="$2"
    OUT="$3"
@@ -47,24 +45,31 @@ main()
 
 check()
 {
+   DELETED="$1"
+   IN="$2"
+   OUT="$3"
    if [ ! command -v gs &> /dev/null ]; then
       echo "Please install ghostscript."
       exit 1
    fi
-   if [ -z "$1" ]; then
+   if [ -z "${DELETED}" ]; then
       echo "Please provide the page to be deleted."
       exit 1
    fi
-   if [ -z "$2" ]; then
+   if [ -z "${IN}" ]; then
       echo "Please provide the input file."
       exit 1
    fi
-   if [ -z "$3" ]; then
+   if [ -z "${OUT}" ]; then
       echo "Please provide the output filename."
       exit 1
    fi
-   if [ ! -f "$2" ]; then
-      echo "Input file $2 not found."
+   if [ -f "${OUT}" ]; then
+      echo "File ${OUT} already exists."
+      exit 1
+   fi
+   if [ ! -f "${IN}" ]; then
+      echo "Input file "${IN}" not found."
       exit 1
    fi
 }

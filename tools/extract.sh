@@ -1,52 +1,68 @@
 #! /usr/bin/env bash
 
+main()
+{
+   START="$1"
+   END="$2"
+   PATH_IN="$3"
+   PATH_OUT="$4"
+   ghostscript="gs -dQUIET"
+   if [ -f "${PATH_OUT}" ]; then
+      echo "File ${PATH_OUT} already exists."
+      exit 1
+   fi
+
+   echo "= = = extracting ${PATH_IN} from page ${START} to page ${END} ..."
+   set -x
+   ${ghostscript} \
+      -sDEVICE=pdfwrite \
+      -dCompatibilityLevel=1.7 \
+      -dSAFER \
+      -dBATCH \
+      -dNOPAUSE \
+      -dFirstPage="${START}" \
+      -dLastPage="${END}" \
+      -sOutputFile="${PATH_OUT}" \
+      "${PATH_IN}"
+   { set +x; } 2>/dev/null
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 check()
 {
+   START="$1"
+   END="$2"
+   PATH_IN="$3"
+   PATH_OUT="$4"
    if [ ! command -v gs &> /dev/null ]; then
-      echo "Please install ghostscript."
+      echo "Please install Ghostscript."
       exit 1
    fi
-   if [ -z "$1" ]; then
+   if [ -z "${START}" ]; then
       echo "Please provide the starting page (included)."
       exit 1
    fi
-   if [ -z "$2" ]; then
-      echo "Please provide the starting page (included)."
+   if [ -z "${END}" ]; then
+      echo "Please provide the ending page (included)."
       exit 1
    fi
-   if [ -z "$3" ]; then
+   if [ "${START}" -gt "${END}" ]; then
+      echo "The start is greater than the end."
+      exit 1
+   fi
+   if [ -z "${PATH_IN}" ]; then
       echo "Please provide the input file."
       exit 1
    fi
-   if [ -z "$4" ]; then
+   if [ -z "${PATH_OUT}" ]; then
       echo "Please provide the output filename."
       exit 1
    fi
-   if [ ! -f "$3" ]; then
-      echo "Input file $3 not found."
+   if [ ! -f "${PATH_IN}" ]; then
+      echo "Input file ${PATH_IN} not found."
       exit 1
    fi
-}
-
-main()
-{
-   HERE="$(dirname $0)"
-   RESOLUTION=300
-   START="$1"
-   STOP="$2"
-   IN="$3"
-   OUT="$4"
-
-   echo "= = = extracting page ${START} from page ${STOP} of document ${IN} ..."
-   set -x
-   gs \
-      -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
-      -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-      -dFirstPage="${START}" \
-      -dLastPage="${STOP}" \
-      -sOutputFile="${OUT}.pdf" \
-      "${IN}"
-   { set +x; } 2>/dev/null
 }
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
