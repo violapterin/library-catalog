@@ -8,7 +8,7 @@ main()
    bare="${OUT%.*}"
 
    echo "= = = deleting page ${DELETED} of document ${IN} ..."
-   if [ "${DELETED}" -eq 1 ]; then
+   if [ "${DELETED}" = "1" ]; then
       set -x
       gs \
          -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \

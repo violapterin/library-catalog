@@ -6,6 +6,6 @@ if [ ! -f "${HERE}/prune.sh" ]; then
    exit 1
 fi
 
-SOUND=1
+SOUND=0
 
 "${HERE}/prune.sh" "$@" "${SOUND}"

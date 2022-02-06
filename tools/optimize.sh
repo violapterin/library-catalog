@@ -1,10 +1,10 @@
 #! /usr/bin/env bash
 
 HERE="$(dirname $0)"
+PARALLEL=3
 
 main_folder()
 {
-   PARALLEL=3
    FOLDER_IN="$1"
    FOLDER_OUT="$2"
    SOUND="$3"
@@ -24,12 +24,9 @@ main_folder()
 
       date +%H:%M
       echo "= = = optimizing document" "${path_in}" "with Pdfsizeopt..."
-      set -x
       main_file "${path_in}" "${path_out}" "${SOUND}"
-      { set +x; } 2>/dev/null
-      sleep 5s # # Pause for echo.
+      sleep 1s # # Pause for echo.
       if [ $((index%PARALLEL)) -eq 0 ]; then
-         echo wait!
          wait $(jobs -p) # # Wait until every thread is done.
       fi
       index=$((index+1))
@@ -45,7 +42,7 @@ main_file()
    PATH_OUT="$2"
    SOUND="$3"
    pdfsizeopt="pdfsizeopt"
-   if [ "${SOUND}" -eq 0 ]; then
+   if [ "${SOUND}" = "0" ]; then
       pdfsizeopt="${pdfsizeopt} --quiet"
    fi
    if [ -f "${PATH_OUT}" ]; then
@@ -104,6 +101,6 @@ if [ -f "$IN" ]; then
    exit 0
 fi
 if [ -d "$IN" ]; then
-   main_directory "$@"
+   main_folder "$@"
    exit 0
 fi

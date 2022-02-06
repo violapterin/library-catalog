@@ -4,17 +4,15 @@ RESOLUTION=300
 
 main()
 {
-   PAPER="$1"
-   PATH_IN="$2" # image or PDF
-   PATH_OUT="$3"
+   PATH_IN="$1" # image or PDF
+   PATH_OUT="$2"
    COLOR="$4"
    name="${PATH_IN##*/}"
    bare="${name%.*}"
    extension="${name##*.}"
-   mid="${bare}-mid.pdf"
-   convert_option="convert"
-   if [ "${COLOR}" -eq 0 ]; then
-      convert_option="convert -monochrome"
+   convert="convert"
+   if [ "${COLOR}" = "0" ]; then
+      convert="convert -monochrome"
    fi
    if [ -f "${PATH_OUT}" ]; then
       echo "File ${PATH_OUT} already exists."
@@ -25,50 +23,26 @@ main()
       if [ "${extension}" != "jpg" ] && [ "${extension}" != "png" ]; then
          continue
       fi
-      echo "converting image ${PATH_IN} as ${mid} ..."
-      set -x
-      ${convert_option} \
-         -density "${RESOLUTION}" \
-         -page "${PAPER}" \
-         "${PATH_IN}" \
-         "${mid}"
-      { set +x; } 2>/dev/null
-      IN="${mid}"
    fi
-
-   echo "resizing document ${PATH_IN} as ${PATH_OUT} ..."
+   echo "converting image ${PATH_IN} as ${PATH_OUT} ..."
    set -x
-   gs \
-      -sDEVICE=pdfwrite \
-      -dCompatibilityLevel=1.7 \
-      -dSAFER \
-      -dBATCH \
-      -dNOPAUSE \
-      -dQUIET \
-      -dFIXEDMEDIA \
-      -dPDFFitPage \
-      -sPAPERSIZE=${PAPER} \
-      -sOutputFile="${PATH_OUT}" \
-      "${PATH_IN}"
+   ${convert} \
+      -density "${RESOLUTION}" \
+      "${PATH_IN}" \
+      "${PATH_OUT}"
    { set +x; } 2>/dev/null
-   rm -f "${mid}"
 }
 
 check()
 {
-   PAPER="$1"
-   PATH_IN="$2"
-   PATH_OUT="$3"
+   PATH_IN="$1"
+   PATH_OUT="$2"
    if [ ! command -v convert &> /dev/null ]; then
       echo "Please install Imagemagick."
       exit 1
    fi
    if [ ! command -v gs &> /dev/null ]; then
       echo "Please install Ghostscript."
-      exit 1
-   fi
-   if [ -z "${PAPER}" ]; then
-      echo "Please provide the paper size."
       exit 1
    fi
    if [ -z "${PATH_IN}" ]; then

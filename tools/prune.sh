@@ -10,6 +10,10 @@ main_folder()
    FOLDER_IN="$2"
    FOLDER_OUT="$3"
    SOUND="$4"
+   if [ ! -d "${OUT}" ]; then
+      echo "Output file or directory ${OUT} is not found."
+      exit 1
+   fi
    for path_in in "${FOLDER_IN}"/*; do
       if [ ! -f "${path_in}" ]; then
          continue
@@ -24,9 +28,7 @@ main_folder()
 
       date +%H:%M
       echo "= = = pruning document ${path_in} with Ghostscript..."
-      set -x
       main_file "${PAPER}" "${path_in}" "${path_out}" "${SOUND}"
-      { set +x; } 2>/dev/null
    done
 }
 
@@ -40,7 +42,7 @@ main_file()
    PATH_OUT="$3"
    SOUND="$4"
    ghostscript="gs"
-   if [ "${SOUND}" -eq 0 ]; then
+   if [ "${SOUND}" = "0" ]; then
       ghostscript="${ghostscript} -dQUIET"
    fi
    if [ -f "${PATH_OUT}" ]; then
@@ -116,18 +118,6 @@ check()
       echo "Input file or directory ${IN} is not found."
       exit 1
    fi
-   if [ ! -d "${OUT}" ] && [ ! -f "${OUT}" ]; then
-      echo "Output file or directory ${OUT} is not found."
-      exit 1
-   fi
-   if [ -d "${IN}" ] && [ -f "${OUT}" ]; then
-      echo "Directory ${IN} and file ${OUT} does not match."
-      exit 1
-   fi
-   if [ -f "${IN}" ] && [ -d "${OUT}" ]; then
-      echo "File ${IN} and directory ${OUT} does not match."
-      exit 1
-   fi
 }
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -141,6 +131,6 @@ if [ -f "$IN" ]; then
    exit 0
 fi
 if [ -d "$IN" ]; then
-   main_directory "$@"
+   main_folder "$@"
    exit 0
 fi
