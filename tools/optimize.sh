@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 HERE="$(dirname $0)"
-PARALLEL=3
+PARALLEL=6
 
 main_folder()
 {
