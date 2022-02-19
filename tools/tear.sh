@@ -6,7 +6,7 @@ main()
 {
    FOLDER_IN="$1"
    FOLDER_OUT="$2"
-   ghostscript="ghostscript -dQUIET"
+   ghostscript="gs -dQUIET"
 
    for path_in in "${FOLDER_IN}"/*; do
       if [ ! -f "${path_in}" ]; then

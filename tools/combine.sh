@@ -19,7 +19,6 @@ main()
       -dNOPAUSE \
       -dFIXEDMEDIA \
       -dPDFFitPage \
-      -dQUIET \
       -sPAPERSIZE=${PAPER} \
       -sOutputFile="${OUT}" \
       ${MANY_IN}
