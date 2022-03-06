@@ -2,9 +2,8 @@
 
 main()
 {
-   PAPER="$1"
-   size_in="$(($#-2))" # # length minus one
-   MANY_IN="${@:2:$size_in}"
+   size_in="$(($#-1))" # # length minus one
+   MANY_IN="${@:1:$size_in}"
    OUT="${@: -1}" # # keep the space
    ghostscript="gs -dQUIET"
 
@@ -19,7 +18,6 @@ main()
       -dNOPAUSE \
       -dFIXEDMEDIA \
       -dPDFFitPage \
-      -sPAPERSIZE=${PAPER} \
       -sOutputFile="${OUT}" \
       ${MANY_IN}
    { set +x; } 2>/dev/null
@@ -30,7 +28,6 @@ main()
 check()
 {
    SIZE_IN="$(($#-2))" # # length minus one
-   PAPER="$1"
    MANY_IN="${@:2:${SIZE_IN}}"
    OUT="${@: -1}" # # keep the space
    if [ ! command -v gs &> /dev/null ]; then
