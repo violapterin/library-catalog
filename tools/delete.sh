@@ -2,17 +2,19 @@
 
 main()
 {
-   DELETED="$1"
-   IN="$2"
-   OUT="$3"
+   DELETED_START="$1"
+   DELETED_END="$2"
+   IN="$3"
+   OUT="$4"
    bare="${OUT%.*}"
 
-   echo "= = = deleting page ${DELETED} of document ${IN} ..."
-   if [ "${DELETED}" = "1" ]; then
+   echo "= = = deleting from page ${DELETED_START} to page ${DELETED_END} of document ${IN} ..."
+   if [ "${DELETED_END}" = "1" ]; then
       set -x
       gs \
          -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
          -dSAFER -dBATCH -dNOPAUSE -dQUIET \
+         -dFirstPage=2 \
          -sOutputFile="${bare}.pdf" \
          "${IN}"
       { set +x; } 2>/dev/null
@@ -22,13 +24,13 @@ main()
    gs \
       -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
       -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-      -dLastPage="$(($1-1))" \
+      -dLastPage="$(($DELETED_START-1))" \
       -sOutputFile="${bare}-x.pdf" \
       "${IN}"
    gs \
       -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
       -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-      -dFirstPage="$(($1+1))" \
+      -dFirstPage="$(($DELETED_END+1))" \
       -sOutputFile="${bare}-y.pdf" \
       "${IN}"
    gs \
@@ -45,14 +47,19 @@ main()
 
 check()
 {
-   DELETED="$1"
-   IN="$2"
-   OUT="$3"
+   DELETED_START="$1"
+   DELETED_END="$2"
+   IN="$3"
+   OUT="$4"
    if [ ! command -v gs &> /dev/null ]; then
       echo "Please install ghostscript."
       exit 1
    fi
-   if [ -z "${DELETED}" ]; then
+   if [ -z "${DELETED_START}" ]; then
+      echo "Please provide the page to be deleted."
+      exit 1
+   fi
+   if [ -z "${DELETED_END}" ]; then
       echo "Please provide the page to be deleted."
       exit 1
    fi
