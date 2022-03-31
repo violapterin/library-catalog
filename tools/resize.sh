@@ -9,7 +9,6 @@ main_folder()
    PAPER="$1"
    FOLDER_IN="$2"
    FOLDER_OUT="$3"
-   SOUND="$4"
    if [ ! -d "${OUT}" ]; then
       echo "Output file or directory ${OUT} is not found."
       exit 1
@@ -28,7 +27,7 @@ main_folder()
 
       date +%H:%M
       echo "= = = pruning document ${path_in} with Ghostscript..."
-      main_file "${PAPER}" "${path_in}" "${path_out}" "${SOUND}"
+      main_file "${PAPER}" "${path_in}" "${path_out}"
    done
 }
 
@@ -36,15 +35,10 @@ main_folder()
 
 main_file()
 {
-   RESOLUTION=300
    PAPER="$1"
    PATH_IN="$2"
    PATH_OUT="$3"
-   SOUND="$4"
-   ghostscript="gs"
-   if [ "${SOUND}" = "0" ]; then
-      ghostscript="${ghostscript} -dQUIET"
-   fi
+   ghostscript="gs -dQUIET"
    if [ -f "${PATH_OUT}" ]; then
       echo "File ${PATH_OUT} already exists."
       exit 1
@@ -59,36 +53,10 @@ main_file()
       -dNOPAUSE \
       -dFIXEDMEDIA \
       -dPDFFitPage \
-      -dAutoRotatePages=/All \
-      -dDetectDuplicateImages=true \
-      -dColorImageDownsampleThreshold=1.0 \
-      -dGrayImageDownsampleThreshold=1.0 \
-      -dMonoImageDownsampleThreshold=1.0 \
-      -dDownsampleColorImages=true \
-      -dDownsampleGrayImages=true \
-      -dDownsampleMonoImages=true \
-      -dColorImageDownsampleType=/Average \
-      -dGrayImageDownsampleType=/Average \
-      -dMonoImageDownsampleType=/Subsample \
-      -dColorImageFilter=/DCTEncode \
-      -dGrayImageFilter=/DCTEncode \
-      -dMonoImageFilter=/CCITTFaxEncode \
-      -dOptimize=true \
-      -dCompressPages=true \
       -sPAPERSIZE="${PAPER}" \
-      -dColorImageResolution="${RESOLUTION}" \
-      -dGrayImageResolution="${RESOLUTION}" \
-      -dMonoImageResolution="${RESOLUTION}" \
       -sOutputFile="${PATH_OUT}" \
       "${PATH_IN}"
    { set +x; } 2>/dev/null
-
-   # # for converting to black and white:
-   # -sColorConversionStrategy=Gray \
-   # -sProcessColorModel=DeviceGray \
-
-   # # for padding, from left to right, from below to above:
-   # -c "<</PageOffset [12 16]>> setpagedevice" -f \
 }
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

@@ -3,32 +3,16 @@
 main()
 {
    HERE="$(dirname $0)"
-   START="$1"
-   STOP="$2"
+   CUT="$1"
+   PATCH="$2"
    IN="$3"
    OUT="$4"
    bare="${OUT%.*}"
 
-   echo "= = = deleting from page ${START} to page ${STOP} of document ${IN} ..."
-   total="$(${HERE}/count.sh ${IN})"
-   if [ "${STOP}" -eq 1 ]; then
+   echo "= = = inserting page ${CUT} into document ${IN} ..."
+   if [ "${CUT}" -eq 1 ]; then
       set -x
-      gs \
-         -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
-         -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-         -dFirstPage=2 \
-         -sOutputFile="${bare}.pdf" \
-         "${IN}"
-      { set +x; } 2>/dev/null
-      exit 0
-   elif [ "${START}" -eq "${total}" ]; then
-      set -x
-      gs \
-         -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
-         -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-         -dFirstPage="$(($total-1))" \
-         -sOutputFile="${bare}.pdf" \
-         "${IN}"
+      "${HERE}/combine.sh" "${PATCH}" "${IN}" "${OUT}"
       { set +x; } 2>/dev/null
       exit 0
    fi
@@ -36,16 +20,16 @@ main()
    gs \
       -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
       -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-      -dLastPage="$(($START-1))" \
+      -dLastPage="$(($CUT-1))" \
       -sOutputFile="${bare}-x.pdf" \
       "${IN}"
    gs \
       -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
       -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-      -dFirstPage="$(($STOP+1))" \
+      -dFirstPage="${CUT}" \
       -sOutputFile="${bare}-y.pdf" \
       "${IN}"
-   "${HERE}/combine.sh" "${bare}-x.pdf" "${bare}-y.pdf" "${bare}.pdf"
+   "${HERE}/combine.sh" "${bare}-x.pdf" "${PATCH}" "${bare}-y.pdf" "${OUT}"
    { set +x; } 2>/dev/null
    rm -f "${bare}-x.pdf"
    rm -f "${bare}-y.pdf"
@@ -56,28 +40,24 @@ main()
 check()
 {
    HERE="$(dirname $0)"
-   START="$1"
-   STOP="$2"
+   CUT="$1"
+   PATCH="$2"
    IN="$3"
    OUT="$4"
    if [ ! command -v gs &> /dev/null ]; then
       echo "Please install ghostscript."
       exit 1
    fi
-   if [ ! -f "${HERE}/count.sh" ]; then
-      echo "Script count.sh is not found."
-      exit 1
-   fi
    if [ ! -f "${HERE}/combine.sh" ]; then
       echo "Script combine.sh is not found."
       exit 1
    fi
-   if [ -z "${START}" ]; then
-      echo "Please provide the page to be deleted."
+   if [ -z "${CUT}" ]; then
+      echo "Please provide the page to be cut."
       exit 1
    fi
-   if [ -z "${STOP}" ]; then
-      echo "Please provide the page to be deleted."
+   if [ -z "${PATCH}" ]; then
+      echo "Please provide the patch to be inserted."
       exit 1
    fi
    if [ -z "${IN}" ]; then
