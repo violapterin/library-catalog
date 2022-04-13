@@ -7,8 +7,9 @@ def main(folder_book):
    folder_this = os.path.dirname(__file__)
    record = list()
    traverse_primary(folder_book, record)
+   extension = ({"markdown": "md", "latex": "tex"}).get(kind)
    for kind in ["markdown", "latex"]:
-      path = os.path.join(folder_this, f"catalog-{kind}.md")
+      path = os.path.join(folder_this, f"catalog-{kind}.{extension}")
       publish_record(kind, path, record)
 
 def traverse_primary(root, record):
