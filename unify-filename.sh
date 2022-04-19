@@ -23,7 +23,9 @@ for path_in in "${FOLDER}"/*; do
    if [ "${path_in}" = "${path_out}" ]; then
       continue
    fi
+   set -x
    mv "${path_in}" "${path_out}"
+   { set +x; } 2>/dev/null
 done
 
 # rename "s/_/-/" *.pdf

@@ -6,181 +6,184 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Shakespeare | Merchant of Venice | 815.58K |
-| 陈大海 et al ed | 元杂剧观止 | 3.54M |
-| Shakespeare | Richard III | 952.78K |
-| Wilder | Our Town | 2.06M |
-| Shakespeare | Macbeth | 824.87K |
-| Shakespeare | Othello | 1.15M |
-| Wise & Walker ed | Broadview Anthology of Drama | 5.74M |
-| Shakespeare | Twelfth Night | 722.14K |
-| Wheatley ed | Drama in English | 3.85M |
 | Shakespeare | King Lear | 796.34K |
+| Shakespeare | Othello | 1.15M |
+| Shakespeare | Twelfth Night | 722.14K |
+| Wilder | Our Town | 2.06M |
+| Wheatley ed | Drama in English | 3.85M |
 | Chekhov | Plays | 1.84M |
+| 陈大海 et al ed | 元杂剧观止 | 3.54M |
+| Shakespeare | Macbeth | 824.87K |
+| Shakespeare | Richard III | 952.78K |
+| Shakespeare | Merchant of Venice | 815.58K |
+| Wise & Walker ed | Broadview Anthology of Drama | 5.74M |
 
 ## novels
 
 | author | title | size |
 | ---- | ---- | ---- |
+| 人民文学 pub | 红楼梦 | 12.15M |
 | Proust | In Search of Lost Time, vol 6 | 1.87M |
-| Ramarque | Im Westen Nichts Neues | 1.35M |
-| Joyce | Ulysses | 31.61M |
+| Tolkien | Hobbit, der | 3.21M |
+| 普鲁斯特 (周克希译) | 追寻逝去的时光读本 | 2.32M |
 | Rowling | Chamber of Secrets, Harry Potter vol 2 | 1.50M |
+| Austen | Pride and Prejudice | 2.17M |
 | Rowling | Goblet of Fire, Harry Potter vol 4 | 2.64M |
+| Rhys | Complete Novels | 9.41M |
+| Joyce | Ulysses | 31.61M |
+| Murakami | Wind up Bird Chronicle | 2.97M |
+| Joyce | Portrait of the Artist as a Young Man | 1.59M |
+| 雲中 pub | 金瓶梅會評 | 15.70M |
+| Gaarder | Orangenmädchen, das | 931.81K |
+| 张大春 | 城邦暴力团 | 3.59M |
+| Rowling | Deathly Hallows, Harry Potter vol 7 | 2.62M |
+| Gaarder | Durch einen Spiegel, in einem dunklen Wort | 1.11M |
+| Dostoevsky | Brothers Karamazov | 5.08M |
+| Tolstoy | Anna Karenina | 4.72M |
+| Woolf | Mrs Dalloway | 939.14K |
+| Rowling | Prisoner of Azkaban, Harry Potter vol 3 | 1.76M |
+| 人民文学 pub | 三国演义 | 4.64M |
+| Rowling | Half Blood Prince, Harry Potter vol 6 | 2.35M |
+| Flaubert | Madame Bovary | 1.51M |
+| Rowling | Sorcerer's Stone, Harry Potter vol 1 | 1.38M |
+| Proust | In Search of Lost Time, vol 5 | 3.21M |
+| Hesse | Siddhartha | 381.06K |
+| Woolf | To the Lighthouse | 1.02M |
+| Nabokov | Lolita | 2.84M |
+| Brontë | Wuthering Heights | 4.53M |
+| 人民文学 pub | 水浒传 | 5.41M |
+| Tolstoy | War and Peace | 12.27M |
+| 人民文学 pub | 西游记 | 5.64M |
+| Proust | In Search of Lost Time, vol 4 | 2.55M |
+| Dumas | Count of Monte Cristo | 4.32M |
+| Swift | Gulliver's Travels | 2.67M |
 | Le Guin | Magier der Erdsee, der | 2.39M |
 | Brontë | Jane Eyre | 5.32M |
 | Woolf | Waves | 1011.51K |
-| Tolstoy | Anna Karenina | 4.72M |
-| Flaubert | Madame Bovary | 1.51M |
+| Doyle | Complete Sherlock Holmes Novels | 5.82M |
 | Lodge | Therapy | 2.18M |
-| Rowling | Deathly Hallows, Harry Potter vol 7 | 2.62M |
-| 雲中 pub | 金瓶梅會評 | 15.70M |
-| Gaarder | Durch einen Spiegel, in einem dunklen Wort | 1.11M |
-| Austen | Pride and Prejudice | 2.17M |
-| Tolkien | Hobbit, der | 3.21M |
-| Woolf | To the Lighthouse | 1.02M |
-| 人民文学 pub | 西游记 | 5.64M |
-| Rowling | Prisoner of Azkaban, Harry Potter vol 3 | 1.76M |
-| 普鲁斯特 (周克希译) | 追寻逝去的时光读本 | 2.32M |
-| 张大春 | 城邦暴力团 | 3.59M |
-| 人民文学 pub | 三国演义 | 4.64M |
-| Rowling | Half Blood Prince, Harry Potter vol 6 | 2.35M |
-| Tolstoy | War and Peace | 12.27M |
-| Rowling | Sorcerer's Stone, Harry Potter vol 1 | 1.38M |
-| 人民文学 pub | 水浒传 | 5.41M |
-| Proust | In Search of Lost Time, vol 5 | 3.21M |
-| Woolf | Mrs Dalloway | 939.14K |
-| Proust | In Search of Lost Time, vol 4 | 2.55M |
-| Dumas | Count of Monte Cristo | 4.32M |
-| 撫琴居 pub | 紅樓夢脂評匯校本 | 8.59M |
-| Swift | Gulliver's Travels | 2.67M |
-| Murakami | Wind up Bird Chronicle | 2.97M |
-| Tolkien | Lord of the Rings | 7.72M |
-| Joyce | Portrait of the Artist as a Young Man | 1.59M |
-| Nabokov | Lolita | 2.84M |
-| Gaarder | Orangenmädchen, das | 931.81K |
-| Hesse | Siddhartha | 381.06K |
-| Dostoevsky | Brothers Karamazov | 5.08M |
 | Proust | In Search of Lost Time, vol 1 | 2.15M |
 | Proust | In Search of Lost Time, vol 3 | 2.77M |
 | Proust | In Search of Lost Time, vol 2 | 2.54M |
-| Brontë | Wuthering Heights | 4.53M |
+| 撫琴居 pub | 紅樓夢脂評匯校本 | 8.59M |
+| Ramarque | Im Westen Nichts Neues | 1.35M |
 | Rowling | Order of the Phoenix, Harry Potter vol 5 | 3.28M |
-| 人民文学 pub | 红楼梦 | 12.15M |
-| Rhys | Complete Novels | 9.41M |
+| Tolkien | Lord of the Rings | 7.72M |
 
 ## general
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Houghton et al ed | Anthology of British Neo Latin Literature | 2.49M |
-| Mays | Norton Introduction to Literature | 26.98M |
 | Colvin | Historical Greek Reader | 1.39M |
+| Mays | Norton Introduction to Literature | 26.98M |
 | Puchner et al ed | Norton Anthology of World Literature, vol 1 | 30.34M |
-| Hadas et al ed | Anthology of European Neo Latin Literature | 2.59M |
 | Owen | Anthology of Chinese Literature | 21.59M |
+| Hadas et al ed | Anthology of European Neo Latin Literature | 2.22M |
 | LaFleur | Wheelock's Latin Reader | 17.39M |
+| Houghton et al ed | Anthology of British Neo Latin Literature | 1.74M |
+| Johnson & Arp ed | Perrine's Literature | 6.44M |
 | 钟基 et al | 古文观止译注 | 25.32M |
-| Puchner et al ed | Norton Anthology of World Literature, vol 2 | 46.82M |
 | Barnet et al ed | Introduction to Literature | 12.09M |
 | Levine et al ed | Norton Anthology of American Literature, package 2 | 36.91M |
-| Johnson & Arp ed | Perrine's Literature | 6.44M |
 | Levine et al ed | Norton Anthology of American Literature, package 1 | 32.91M |
 | Greenblatt et al ed | Norton Anthology of English Literature, vol 1 of 2 | 40.38M |
+| Puchner et al ed | Norton Anthology of World Literature, vol 2 | 46.82M |
 
 ## theory
 
 | author | title | size |
 | ---- | ---- | ---- |
-| 蔡义江 | 追踪石头 | 16.89M |
-| Egan | Struggle for Shakespeare's Text | 1.18M |
-| Leitch et al ed | Norton Anthology of Theory and Criticism | 18.22M |
-| Hsia | On Chinese Literature | 2.51M |
-| Moul | Guide to Neo Latin literature | 2.84M |
-| Mair | Columbia History of Chinese Literature | 6.84M |
 | Chang & Owen ed | Cambridge History of Chinese Literature | 14.82M |
-| Ehrman | Brief Introduction to the New Testament | 23.71M |
-| 王引之 | 經義述聞 | 59.40M |
-| Collins | Introduction to the Hebrew Bible | 41.14M |
-| Bloom | Western Canon | 7.00M |
-| Steele | Missing Measures | 8.50M |
-| Hsia | Classic Chinese Novel | 4.26M |
 | 錢鍾書 | 管錐編 | 17.04M |
+| Collins | Introduction to the Hebrew Bible | 41.14M |
+| Hsia | Classic Chinese Novel | 4.26M |
+| Moul | Guide to Neo Latin literature | 2.84M |
+| 王力 | 诗词格律 | 7.89M |
+| Mair | Columbia History of Chinese Literature | 6.84M |
+| 王引之 | 經義述聞 | 59.40M |
+| Ehrman | Brief Introduction to the New Testament | 23.71M |
+| Leitch et al ed | Norton Anthology of Theory and Criticism | 18.22M |
+| Steele | Missing Measures | 8.50M |
+| 蔡义江 | 追踪石头 | 16.89M |
+| Bloom | Western Canon | 7.00M |
+| Hsia | On Chinese Literature | 2.51M |
+| Egan | Struggle for Shakespeare's Text | 1.18M |
 
 ## verses
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Horace | Satires, Epistles, and Ars Poetica | 9.65M |
-| Ovid | Metamorphoses | 27.51M |
-| Dickinson | Poems | 3.92M |
-| 王国伟 et al ed | 唐诗观止 | 9.06M |
-| Goethe | Faust | 1.90M |
-| Dante | Inferno | 1.01M |
-| Plath | Collected Poems | 967.82K |
 | Baudelaire | Flowers of Evil | 542.81K |
-| Milton | Paradise Lost | 4.74M |
-| 湯炳正 et al | 楚辭今注 | 12.23M |
-| Ferguson et al ed | Norton Anthology of Poetry | 62.45M |
-| 程俊英 & 蔣見元 | 詩經注析 | 28.58M |
 | 杨牧 | 诗选 | 1.49M |
-| 郭建 et al ed | 清诗观止 | 4.15M |
-| 李畅友 et al ed | 元明清散曲观止 | 2.97M |
-| Virgil | Aeneid | 33.11M |
-| Du | Poetry of Du Fu | 8.86M |
-| Murray tr | Iliad | 35.82M |
-| Murray tr | Odyssey | 26.09M |
+| 王国伟 et al ed | 唐诗观止 | 9.06M |
+| Dante | Inferno | 1.01M |
 | 高步瀛 | 唐宋詩舉要 | 29.74M |
+| Milton | Paradise Lost | 4.74M |
+| 郭建 et al ed | 清诗观止 | 4.15M |
+| Ovid | Metamorphoses | 27.51M |
+| Ferguson et al ed | Norton Anthology of Poetry | 62.45M |
+| Virgil | Aeneid | 33.11M |
+| Horace | Satires and Epistles | 12.97M |
+| Plath | Collected Poems | 967.82K |
+| Babrius & Phaedrus | Fables | 19.92M |
+| 湯炳正 et al | 楚辭今注 | 12.23M |
+| Du | Poetry of Du Fu | 8.86M |
+| 程俊英 & 蔣見元 | 詩經注析 | 28.58M |
+| Dickinson | Poems | 3.92M |
+| Murray tr | Iliad | 35.80M |
+| Goethe | Faust | 1.90M |
+| Murray tr | Odyssey | 26.08M |
+| 李畅友 et al ed | 元明清散曲观止 | 2.97M |
 
 ## essays
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Xenophon | Anabasis | 16.09M |
-| Goldthwaite et al ed | Norton Reader | 24.48M |
-| Hartmann ed | Septuaginta | 6.86M |
-| 王顺意 et al ed | 宋金元文观止 | 25.76M |
-| Alter tr | Writings, Hebrew Bible vol 3 | 4.96M |
-| Vermès tr | Complete Dead Sea Scrolls | 14.77M |
-| Conze ed | Buddhist Texts Through the Ages | 8.49M |
-| Caesar | Civil War | 10.78M |
-| Augustine | Confessions | 24.94M |
 | Coogan et al ed | New Oxford Annotated Bible | 31.46M |
-| 孫星衍 | 尚書今古文注疏 | 20.56M |
+| 劉寶楠 | 論語正義 | 27.01M |
+| Goldthwaite et al ed | Norton Reader | 24.48M |
 | Price ed | Pre Nicene New Testament | 5.93M |
-| Alter tr | Books of Moses, Hebrew Bible vol 1 | 4.90M |
-| 王先謙 | 莊子集解 | 17.25M |
-| Caesar | Gallic War | 23.01M |
-| Holmes ed | Greek New Testament | 5.92M |
-| Xenophon | Memorabilia | 17.13M |
-| Haleem tr | Qu'ran | 2.18M |
-| Cambridge pub | King James Bible | 8.86M |
-| Tweedale ed | Vulgatam Clementinam | 5.75M |
-| 焦循 | 孟子正義 | 36.28M |
-| 陈鼓应 | 老子今注今译 | 10.85M |
-| Alter tr | Prophets, Hebrew Bible vol 2 | 7.19M |
-| Bodhi ed | In Buddha's Words | 2.57M |
 | Confucius | Analects | 6.81M |
-| 高亨 | 周易古經今注 | 8.42M |
-| 劉寶楠 | 論語正義 | 27.02M |
+| 王顺意 et al ed | 宋金元文观止 | 25.76M |
+| Conze ed | Buddhist Texts Through the Ages | 8.49M |
+| 王先謙 | 莊子集解 | 17.25M |
+| Augustine | Confessions | 24.96M |
+| Haleem tr | Qu'ran | 2.18M |
+| Caesar | Gallic War | 23.03M |
+| Alter tr | Writings, Hebrew Bible vol 3 | 4.96M |
+| Tweedale ed | Vulgatam Clementinam | 5.75M |
+| Hartmann ed | Septuaginta | 6.86M |
+| Xenophon | Anabasis | 16.09M |
+| Vermès tr | Complete Dead Sea Scrolls | 14.77M |
+| Alter tr | Books of Moses, Hebrew Bible vol 1 | 4.90M |
 | Lattimore tr | New Testament | 1.55M |
+| 陈鼓应 | 老子今注今译 | 10.85M |
+| Holmes ed | Greek New Testament | 5.92M |
+| Bodhi ed | In Buddha's Words | 2.57M |
+| Alter tr | Prophets, Hebrew Bible vol 2 | 7.19M |
+| 高亨 | 周易古經今注 | 8.42M |
+| 孫星衍 | 尚書今古文注疏 | 20.56M |
+| Cambridge pub | King James Bible | 8.86M |
+| Xenophon | Memorabilia | 17.13M |
 | Grothendieck | Récoltes et Semailles | 5.73M |
+| 焦循 | 孟子正義 | 36.27M |
+| Caesar | Civil War | 10.79M |
 
 ## stories
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Süskind | Taube, die | 552.00K |
-| Blanchot | Last Man | 691.02K |
-| 童伟格 | 王考 | 1.01M |
 | Blanchot | Death Sentence | 945.55K |
-| Kafka | Erzählungen, die | 1.82M |
-| Joyce | Dubliners | 1.18M |
-| Munro | Hateship, Friendship, Courtship, Loveship, Marriage | 2.37M |
-| Kafka | Verwandlung, die | 515.57K |
-| 張愛玲 | 短篇小說集 | 26.89M |
-| Munro | Love of a Good Woman | 1.43M |
 | Zweig | Brief einer unbekannten | 1.21M |
+| Kafka | Erzählungen, die | 1.82M |
+| Süskind | Taube, die | 552.00K |
+| Joyce | Dubliners | 1.18M |
+| 張愛玲 | 短篇小說集 | 26.89M |
+| 童伟格 | 王考 | 1.01M |
+| Munro | Love of a Good Woman | 1.43M |
+| Kafka | Verwandlung, die | 515.57K |
+| Blanchot | Last Man | 691.02K |
+| Munro | Hateship, Friendship, Courtship, Loveship, Marriage | 2.37M |
 
 # mathematics
 
@@ -197,6 +200,7 @@
 | Shafarevich | Basic Algebraic Geometry 1 | 3.21M |
 | Do Carmo | Differential Geometry of Curves and Surfaces | 18.74M |
 | Hartshorne | Deformation Theory | 1.95M |
+| Amari | Information Geometry and its Applications | 6.19M |
 | Griffiths | Introduction to Algebraic Curves | 4.91M |
 | May | Concise Course in Algebraic Topology | 1.64M |
 | Coxeter | Non Euclidean Geometry | 8.56M |
@@ -209,16 +213,15 @@
 | Tu | An Introduction to Manifolds | 4.01M |
 | Archimedes | Works | 12.21M |
 | Sussman & Wisdom | Functional Differential Geometry | 2.44M |
-| Weintraub | Fundamentals of Algebraic Topology | 3.56M |
 | Vakil | Rising Sea | 5.75M |
 | Deo | Algebraic Topology | 3.49M |
-| Amari | Information Geometry and its Applications | 6.19M |
 | Cox | Little, & O'Shea, Ideals, Varieties, and, Algorithms | 11.41M |
+| Coxeter | Projective Geometry | 3.86M |
 | Nicolaescu | Invitation to Morse Theory | 4.20M |
 | Jänich | Topologie | 10.26M |
 | Aumann | Kreisgeometrie | 3.05M |
-| Coxeter | Projective Geometry | 3.86M |
 | Hartshorne | Geometry | 13.80M |
+| Weintraub | Fundamentals of Algebraic Topology | 3.56M |
 | Bosch | Algebraic Geometry and Commutative Algebra | 3.57M |
 | Galarza & Seade | Introduction to Classical Geometry | 5.96M |
 | Wildberger | Divine Proportions | 3.04M |
@@ -233,17 +236,17 @@
 | Axler | Linear Algebra Done Right | 3.05M |
 | MacLane & Birkhoff | Algebra | 17.65M |
 | Diophantus | Arithmetics | 9.74M |
-| Fulton & Harris | Representation Theory | 40.85M |
+| Fulton & Harris | Representation Theory | 13.78M |
 | Lang | Algebra | 21.25M |
 | Altman & Kleiman | Term of Commutative Algebra | 4.62M |
 | Bergman | Invitation to General Algebra and Universal Constructions | 8.31M |
-| Hellegouarch | Invitation to the Mathematics of Fermat Wiles | 12.08M |
+| Hellegouarch | Invitation to the Mathematics of Fermat Wiles | 7.57M |
 | Artin | Algebra | 8.62M |
 | Hungerford | Algebra | 23.63M |
 | Dummit & Foote | Abstract Algebra | 37.49M |
 | Stillwell | Naive Lie Theory | 2.07M |
+| Springer | Linear Algebraic Groups | 9.37M |
 | Aluffi | Algebra Chapter 0 | 4.21M |
-| Springer | Linear Algebraic Groups | 101.25M |
 | Bump et al | Introduction to the Langlands Program | 21.94M |
 | Niven et al | Introduction to the Theory of Numbers | 14.85M |
 | Jarvis | Algebraic Number Theory | 2.72M |
@@ -255,8 +258,8 @@
 | Zee | Group Theory in a Nutshell for Physicists | 10.04M |
 | Lang | Algebraic Number Theory | 22.29M |
 | Erdmann & Wildon | Introduction to Lie Algebras | 3.34M |
-| Ceccherini Silberstein & Coornaert | Cellular Automata and Groups | 5.39M |
 | Katznelson & Katznelson | Terse Introduction to Linear Algebra | 4.64M |
+| Ceccherini Silberstein & Coornaert | Cellular Automata and Groups | 5.39M |
 | Bosch | Algebra | 5.05M |
 | Herstein | Topics in Algebra | 9.74M |
 | Cornell et al | Modular Forms and Fermat's Last Theorem | 15.71M |
@@ -266,34 +269,36 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
+| 结城浩 | 费马大定理, 数学女孩 vol 2 | 13.79M |
+| 结城浩 | 哥德尔不完备定理, 数学女孩 vol 3 | 8.59M |
+| Tao | Poincaré's legacies, blog part 2 | 3.93M |
 | Arnold | Arnold's Problems | 30.89M |
 | Polya | How to Solve it | 4.79M |
 | Berndt & Andrews eds | Ramanujan's Lost Notebook, part 2 | 5.18M |
+| 结城浩 | 数学女孩 vol 1 | 15.14M |
 | Stillwell | Mathematics and Its History | 7.75M |
 | Hersh ed | 18 Unconventional Essays on the Nature of Mathematics | 2.00M |
-| Polyanin & Chernoutsan ed | Concise Handbook | 8.20M |
-| Tao | Structure and Randomness, blog part 1 | 1.49M |
-| 结城浩 | 伽罗瓦理论, 数学女孩 vol 5 | 8.50M |
+| Tao | Compactness and Contradiction, blog part 4 | 1.35M |
 | Alon et al ed | Visions in Mathematics, part 2 | 6.23M |
-| 结城浩 | 随机算法, 数学女孩 vol 4 | 11.07M |
 | Klein | Elementary Mathematics from a Higher Standpoint, vol 2 of 3 | 4.40M |
-| 结城浩 | 哥德尔不完备定理, 数学女孩 vol 3 | 8.59M |
 | Tao | Solving Mathemacal Problems | 582.14K |
+| Tao | Epsilon of Room, blog part 3 | 3.57M |
+| 结城浩 | 伽罗瓦理论, 数学女孩 vol 5 | 8.50M |
 | Klein | Elementary Mathematics from a Higher Standpoint, vol 1 of 3 | 4.45M |
 | Berndt ed | Ramanujan's Notebooks, part 5 | 32.57M |
-| Smith ed | Source Book in Mathematics | 19.21M |
-| 结城浩 | 费马大定理, 数学女孩 vol 2 | 13.79M |
-| Tao | Compactness and Contradiction, blog part 4 | 1.35M |
+| Smith ed | Source Book in Mathematics | 24.73M |
+| Hofstadter | Gödel, Escher, Bach | 25.34M |
 | Berndt ed | Ramanujan's Notebooks, part 1 | 21.68M |
 | Berndt & Andrews eds | Ramanujan's Lost Notebook, part 3 | 4.73M |
-| Hassani | Mathematical Physics | 9.67M |
+| Hassani | Mathematical Physics | 6.90M |
+| Polyanin & Chernoutsan ed | Concise Handbook of Mathematics, Physics, and Engineering Sciences | 8.76M |
 | Kirillov | Tale of Two Fractals | 2.34M |
 | Berndt ed | Ramanujan's Notebooks, part 3 | 28.92M |
-| 结城浩 | 数学女孩 vol 1 | 15.14M |
-| Tao | Epsilon of Room, blog part 3 | 3.57M |
+| 结城浩 | 随机算法, 数学女孩 vol 4 | 11.07M |
+| Tao | Structure and Randomness, blog part 1 | 1.49M |
 | Alon et al ed | Visions in Mathematics, part 1 | 3.41M |
-| Tao | Poincaré's legacies, blog part 2 | 3.93M |
 | Berndt & Andrews eds | Ramanujan's Lost Notebook, part 1 | 3.29M |
+| Kline | Mathematics | 14.35M |
 | Berndt & Andrews eds | Ramanujan's Lost Notebook, part 4 | 4.93M |
 | Berndt ed | Ramanujan's Notebooks, part 4 | 23.98M |
 | Aigner & Ziegler | Proofs from the Book | 7.27M |
@@ -312,15 +317,15 @@
 | Nelson | Radically Elementary Probability Theory | 2.84M |
 | Klenke | Wahrscheinlichkeitstheorie | 6.13M |
 | Sprott | Statistical Inference in the Science | 2.93M |
+| Casella & Berger | Statistical Inference | 4.16M |
 | Chaitin | Exploring Randomness | 11.18M |
 | Seber | Matrix Handbook for Statisticians | 27.15M |
 | Hogg & Craig | Introduction to Mathematical Statistics | 12.11M |
 | Durrett | Probability | 2.48M |
-| Schervish | Theory of Statistics | 30.59M |
+| Schervish | Theory of Statistics | 19.26M |
 | Mörters & Peres | Brownian Motion | 4.85M |
 | Berg | Random Walks in Biology | 3.05M |
 | Spokoiny & Dickhaus | Basics of Modern Mathematical Statistics | 2.54M |
-| Casella & Berger | Statistical Inference | 4.16M |
 | Privault | Understanding Markov Chains | 6.64M |
 | Durrett | Essentials of Stochastic Processes | 1001.54K |
 | Shao | Mathematical Statistics | 7.80M |
@@ -329,7 +334,7 @@
 | Ross | Stochastic Processes | 6.75M |
 | Härdle et al | Basics of Modern Mathematical Statistics Exercises and Solutions | 3.60M |
 | Wasserman | All of Statistics | 23.29M |
-| Rosenthal | First Look at Rigorous Probability Theory | 3.12M |
+| Rosenthal | First Look at Rigorous Probability Theory | 5.04M |
 | Jaynes | Probability Theory | 4.78M |
 
 ## analysis
@@ -344,8 +349,9 @@
 | Royden & Fitzpatrick | Real Analysis | 13.42M |
 | Körner | Fourier Analysis | 32.11M |
 | Stein & Shakarchi | Complex Analysis | 3.29M |
+| Stewart | Calculus | 35.73M |
 | Väth | Nonstandard Analysis | 2.87M |
-| Zeidler | Applications to Mathematical Physics, Applied Functional Analysis part 1 | 8.99M |
+| Conway | On Numbers and Games | 6.37M |
 | Brezis | Functional Analysis, Sobolev Spaces, and Partial Differential Equations | 3.43M |
 | Stromberg | Introduction to Classical Real Analysis | 30.54M |
 | Rudin | Functional Analysis | 9.23M |
@@ -354,6 +360,7 @@
 | Jänich | Vektoranalysis | 20.08M |
 | Stein & Shakarchi | Functional Analysis | 2.97M |
 | Clarke | Functional Analysis, Calculus of Variations and Optimal Control | 4.66M |
+| Zeidler | Main Principles and Their Applications, Applied Functional Analysis part 2 | 8.22M |
 | Conway | Functions of One Complex Variable | 26.19M |
 | Cohn | Measure Theory | 3.94M |
 | Jänich | Funktionentheorie | 6.43M |
@@ -364,10 +371,7 @@
 | Bowers & Kalton | Introduction Course on Functional Analysis | 2.16M |
 | Zorich | Mathematical Analysis, vol 1 of 2 | 5.08M |
 | Abbott | Understanding Analysis | 4.03M |
-| Jost | Partial Differential Equations | 2.85M |
 | Tao | Analysis, vol 1 of 2 | 2.52M |
-| Stewart | Calculus | 35.73M |
-| Rudin | Principles of Mathematical Analysis | 7.17M |
 | Dolcetta & Lions ed | Viscosity Solutions and Applications | 16.37M |
 | Dyke | Introduction to Laplace Transforms and Fourier Series | 4.31M |
 | Fleming & Soner | Controlled Markov Processes and Viscosity Solutions | 3.55M |
@@ -389,10 +393,12 @@
 | Rudin | Real and Complex Analysis | 9.03M |
 | Lang | Complex Analysis | 8.77M |
 | MacCluer | Elementary Functional Analysis | 1.74M |
+| Jost | Partial Differential Equations | 2.85M |
+| Rudin | Principles of Mathematical Analysis | 7.17M |
 | Rodríguez et al | Complex Analysis | 3.03M |
 | Bressoud | Radical Approach to Real Analysis | 12.40M |
 | Beals & Wong | Special Functions | 1.62M |
-| Zeidler | Main Principles and Their Applications, Applied Functional Analysis part 2 | 8.22M |
+| Zeidler | Applications to Mathematical Physics, Applied Functional Analysis part 1 | 8.99M |
 | Steele | Cauchy Schwarz Master Class | 1.69M |
 | Stein & Shakarchi | Real Analysis | 3.31M |
 | Krantz & Parks | Primer of Real Analytic Functions | 11.74M |
@@ -409,7 +415,7 @@
 | Andrews | Introduction to Mathematical Logic and Type Theory | 29.65M |
 | Weihrauch | Computable Analysis | 24.08M |
 | Voevodsky ed | Homotopy Type Theory | 2.85M |
-| Bishop & Bridges | Constructive Analysis | 5.82M |
+| Bishop & Bridges | Constructive Analysis | 10.68M |
 | Friedman & Eastlund | Little Prover | 3.05M |
 | Manin | Mathematical Logic | 4.26M |
 | Srivastava | Course on Mathematical Logic | 1.60M |
@@ -427,30 +433,34 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Palisca ed | Norton Anthology of Western Music, vol 2 | 30.35M |
-| Bartok | Piano Concerto No 3 | 2.01M |
 | Palisca ed | Norton Anthology of Western Music, vol 1 | 16.49M |
 | Prokofiev | Piano Concerto No 2 | 2.34M |
 | Schönberg | Gurrelieder | 9.12M |
-| Bartok | Piano Concerto No 2 | 2.51M |
 | Prokofiev | Piano Concerto No 3 | 2.23M |
+| Bartok | Piano Concerto No 3 | 2.01M |
+| Bartok | Piano Concerto No 2 | 2.51M |
+| Palisca ed | Norton Anthology of Western Music, vol 2 | 30.35M |
 
 ## solo
 
 | author | title | size |
 | ---- | ---- | ---- |
+| Faure | Preludes and Impromptus | 3.55M |
 | Schumann (Schumann ed) | Piano Works, vol 2 | 7.72M |
 | Janáček | Piano Pieces | 2.64M |
 | Bach (Wiener pub) | English Suites | 6.19M |
 | Prokofiev (Berman ed) | Piano Sonatas | 10.84M |
 | Beethoven (Wiener pub) | Piano Sonatas, vol 2 of 3 | 8.75M |
+| Faure | Barcarolles | 3.76M |
 | Schumann (Schumann ed) | Piano Works, vol 1 | 8.48M |
 | Bach (Henle pub) | Well Tempered Clavier, vol 1 | 4.11M |
 | Debussy (Henle pub) | Piano Works, vol 1 | 6.05M |
 | Chopin (Wiener pub) | Scherzi | 4.17M |
 | Brahms | Piano Pieces | 4.03M |
+| Faure | Nocturnes | 3.25M |
+| Rachmaninov | Preludes | 5.82M |
 | Scriabin (Günter ed) | Piano Pieces | 6.68M |
-| Rachmaninov | Études Tableaux | 3.67M |
+| Brahms | Piano Sonatas and Variations | 6.03M |
 | Beethoven (Henle pub) | Piano Sonatas, vol 2 of 2 | 12.55M |
 | Beethoven (Wiener pub) | Piano Variations, vol 1 of 2 | 7.00M |
 | Chopin (Wiener pub) | Ballads | 3.56M |
@@ -458,11 +468,9 @@
 | Schickele | Short Tempered Clavier | 1.22M |
 | Schoenberg | Piano Pieces | 2.54M |
 | Debussy (Henle pub) | Piano Works, vol 3 | 6.44M |
-| Faure | Preludes and Impromptus | 3.55M |
 | Bach (Wiener pub) | Inventions and Sinfonias | 4.95M |
-| Faure | Barcarolles | 3.76M |
 | Debussy (Henle pub) | Piano Works, vol 2 | 7.45M |
-| Faure | Nocturnes | 3.25M |
+| Rachmaninov | Études Tableaux | 3.67M |
 | Grieg | Lyric Pieces | 9.12M |
 | Schumann (Schumann ed) | Piano Works, vol 3 | 6.28M |
 | Bach (Henle pub) | Goldberg Variations | 1.62M |
@@ -485,43 +493,41 @@
 | Liszt | Years of Pilgrimage | 6.82M |
 | Hindemith | Ludus Tonalis | 1.43M |
 | Sibelius | Piano Pieces | 4.85M |
-| Rachmaninov | Preludes | 5.82M |
 | Prokofiev | Piano Arrangements | 4.40M |
 | Beethoven (Henle pub) | Piano Sonatas, vol 1 of 2 | 10.83M |
 | Mozart (Wiener pub) | Piano Sonatas, vol 1 | 7.59M |
-| Brahms | Piano Sonatas and Variations | 6.03M |
 
 ## theory
 
 | author | title | size |
 | ---- | ---- | ---- |
 | Tovey | Companion to Beethovens Pianoforte Sonatas | 7.89M |
-| 島岡譲 et al | 和声, vol 1 | 3.10M |
 | Frisch | Music in 20th & 21st Centuries | 8.95M |
 | Schoenberg | Theory of Harmony | 14.81M |
-| Hindemith | Unterweisung im Tonsatz | 17.99M |
 | 焦元溥 | 游艺黑白 | 14.31M |
 | Kostka | Materials & Techniques of 20th Century Music | 7.93M |
 | Leeuw | Music of 20th Century | 6.78M |
 | Bailey | Twelve Note Music of Anton Webern | 9.25M |
-| 島岡譲 et al | 和声, vol 3 | 8.44M |
 | Hanslick | Beautiful in Music | 4.71M |
 | Rosen | Romantic Generation | 30.04M |
 | Kinderman | String Quartets of Beethoven | 4.55M |
-| 島岡譲 et al | 和声, vol 4 | 8.04M |
 | Jeppesen | Counterpoint | 7.31M |
+| 趙玉卿 | 姜白石俗字譜歌曲研究 | 17.01M |
+| Hindemith | Unterweisung im Tonsatz | 17.99M |
 | Christensen ed | Cambridge History of Western Music Theory | 12.54M |
+| 島岡譲 et al | 和声, vol 1 | 3.10M |
 | Miller | On the Art of Singing | 5.79M |
 | Rosen | Beethoven's Piano Sonatas | 31.28M |
-| 趙玉卿 | 姜白石俗字譜歌曲研究 | 17.01M |
+| 島岡譲 et al | 和声, vol 2 | 3.56M |
 | Little & Jenne | Dance and the Music of J S Bach | 9.32M |
 | Kopp | Chromatic Transformations in 19th Century Music | 2.45M |
+| Banowetz et al | Performing Pianist's Guide to Fingering | 17.29M |
+| 島岡譲 et al | 和声, vol 4 | 8.04M |
 | Kennan | Counterpoint | 6.37M |
 | Mazzola | Topos of Music | 36.34M |
 | Aldwell & Schachter | Harmony & Voice Leading | 13.62M |
 | Hindemith | Craft of Musical Composition | 10.78M |
-| 島岡譲 et al | 和声, vol 2 | 3.56M |
-| Banowetz et al | Performing Pianist's Guide to Fingering | 17.29M |
+| 島岡譲 et al | 和声, vol 3 | 8.44M |
 | Rosen | Classical Style | 23.02M |
 | Burkholder et al | History of Western Music | 32.18M |
 
@@ -529,16 +535,16 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Prokofiev | Violin Sonatas | 3.53M |
-| Bach | Art of the Fugue | 5.16M |
-| Beethoven | Early String Quartets | 8.41M |
-| Bach | Musical Offering | 1.36M |
-| Beethoven | Middle String Quartets | 8.98M |
-| Beethoven | Late String Quartets | 11.00M |
 | Ives | Songs | 8.57M |
-| Hal Leonard pub | Real Book | 8.40M |
+| Beethoven | Early String Quartets | 8.41M |
+| Beethoven | Late String Quartets | 11.00M |
 | Brahms | Violin Sonatas | 3.32M |
+| Beethoven | Middle String Quartets | 8.98M |
+| Prokofiev | Violin Sonatas | 3.53M |
+| Bach | Musical Offering | 1.36M |
+| Hal Leonard pub | Real Book | 8.40M |
 | Barber | Songs | 4.02M |
+| Bach | Art of the Fugue | 5.16M |
 
 ## opera
 
@@ -563,7 +569,6 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Schwichtenberg | No Nonsense Electrodynamics | 5.28M |
 | Landau & Lifshitz | Mechanics | 5.28M |
 | Newton | Philosophiæ Naturalis Principia Mathematica | 17.77M |
 | Tong | Electromagnetism | 1.71M |
@@ -571,34 +576,36 @@
 | Hartmann | Principles of Musical Acoustics | 10.68M |
 | Griffiths | Introduction to Electrodynamics | 3.94M |
 | Benacquista & Romano | Classical Mechanics | 9.30M |
-| Kleppner & Kolenkow | Introduction to Mechanics | 8.57M |
+| Kleppner & Kolenkow | Introduction to Mechanics | 5.75M |
 | Marion & Thornton | Classical Dynamics of Particles & Systems | 17.33M |
 | Newton | Mathematical Principles of Natural Philosophy | 27.39M |
-| Schwichtenberg | No Nonsense Classical Mechanics | 7.17M |
 | Tong | Classical Dynamics | 1.03M |
 | Landau & Lifshitz | Classical Theory of Fields | 11.30M |
 | Zangwill | Modern Electrodynamics | 9.51M |
+| Schwichtenberg | No Nonsense Classical Mechanics | 7.17M |
 | Macchi et al | Problems in Classical Electromagnetism | 12.72M |
 | Helrich | Analytical Mechanics | 7.66M |
 | Jackson | Classical Electrodynamics | 25.89M |
 | Greiner | Classical Electrodynamics | 13.31M |
-| Morin | Introduction to Classical Mechanics | 4.00M |
+| Schwichtenberg | No Nonsense Electrodynamics | 5.28M |
+| Morin | Introduction to Classical Mechanics | 3.95M |
 
 ## general
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Feynman et al | Tips on Physics | 2.96M |
-| Feynman et al | Lectures on Physics, vol 3 | 7.30M |
+| Walker et al | Fundamentals of Physics | 37.50M |
 | Kuehn | Student's Guide through the Great Physics Texts, vol 3 of 4 | 13.31M |
 | Schwichtenberg | Physics from Symmetry | 3.72M |
-| Walker et al | Fundamentals of Physics | 37.50M |
+| Magie | Source Book in Physics | 19.52M |
+| Feynman et al | Tips on Physics | 2.96M |
+| Feynman et al | Lectures on Physics, vol 1 | 9.20M |
+| Feynman et al | Lectures on Physics, vol 3 | 7.30M |
 | Kuehn | Student's Guide through the Great Physics Texts, vol 4 of 4 | 7.25M |
 | Kuehn | Student's Guide through the Great Physics Texts, vol 2 of 4 | 4.69M |
 | Feynman et al | Lectures on Physics, vol 2 | 11.60M |
 | Irodov | Problems in General Physics | 7.98M |
 | Penrose | Road to Reality | 13.84M |
-| Feynman et al | Lectures on Physics, vol 1 | 9.20M |
 | Penrose | Fashion, Faith, and Fantasy | 11.18M |
 | Kuehn | Student's Guide through the Great Physics Texts, vol 1 of 4 | 4.58M |
 
@@ -608,10 +615,11 @@
 | ---- | ---- | ---- |
 | Maggiore | Modern Introduction to Quantum Field Theory | 6.81M |
 | Woit | Quantum Theory, Groups and Representations | 10.84M |
+| Schwichtenberg | No Nonsense Quantum Mechanics | 4.48M |
 | Pade | Quantum Mechanics for Pedestrians 2 | 8.49M |
 | Tong | Topics in Quantum Mechanics | 1.92M |
 | Pade | Quantum Mechanics for Pedestrians 1 | 6.01M |
-| Sakurai & Napolitano | Modern Quantum Mechanics | 5.78M |
+| Sakurai & Napolitano | Modern Quantum Mechanics | 5.68M |
 | Takhtajan | Quantum Mechanics for Mathematicians | 3.72M |
 | Bes | Quantum Mechanics | 4.36M |
 | Dick | Advanced Quantum Mechanics | 6.90M |
@@ -624,7 +632,6 @@
 | 國立編譯館 pub | 化學命名原則 | 2.42M |
 | Leigh et al | Principles of Chemical Nomenclature | 1.71M |
 | Shankar | Principles of Quantum Mechanics | 6.89M |
-| Schwichtenberg | No Nonsense Quantum Mechanics | 4.48M |
 | Van der Waerden ed | Sources of Quantum Mechanics | 3.84M |
 | Gustafson & Sigal | Mathematical Concepts of Quantum Mechanics | 3.98M |
 | 'T Hooft | Cellular Automaton Interpretation of Quantum Mechanics | 2.67M |
@@ -638,22 +645,22 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
+| Baum | Eichfeldtheorie | 4.92M |
 | Griffiths | Introduction to Elementary Particles | 13.87M |
 | Folland | Quantum Field Theory | 2.20M |
 | Huang | Quantum Field Theory | 5.76M |
 | Weinberg | Quantum Field Theory, vol 2 of 3 | 12.87M |
-| Schwichtenberg | No Nonsense Quantum Field Theory | 8.26M |
 | Weinberg | Quantum Field Theory, vol 1 of 3 | 14.72M |
-| Srednicki | Quantum Field Theory | 4.18M |
 | Tong | Gauge Theory | 3.85M |
 | Tong | String Theory | 1.28M |
 | Polchinski | String Theory, vol 2 | 2.44M |
 | Braibant et al | Particles and Fundamental Interactions | 13.23M |
 | Ecker | Particles, Fields, Quanta | 3.74M |
 | Blumenhagen | Basic Concepts of String Theory | 7.55M |
-| Baum | Eichfeldtheorie | 4.92M |
 | Peskin & Schroeder | Introduction to Quantum Field Theory | 20.71M |
+| Srednicki | Quantum Field Theory | 4.18M |
 | Tong | Quantum Field Theory | 1.26M |
+| Schwichtenberg | No Nonsense Quantum Field Theory | 8.26M |
 | Greiner & Reinhardt | Quantum Electrodynamics | 5.49M |
 | Robinson | Symmetry & Standard Model | 3.41M |
 | Schwartz | Quantum Field Theory & the Standard Model | 6.69M |
@@ -673,23 +680,24 @@
 | Huang | Statistical Mechanics | 16.27M |
 | Hermann | Statistical Physics | 2.54M |
 | Landau & Lifshitz | Statistical Physics, vol 2 | 12.72M |
+| Schroeder | Introduction to Thermal Physics | 3.09M |
 | Landau & Lifshitz | Statistical Physics, vol 1 | 16.10M |
-| Phillies | Elementary Lectures in Statistical Mechanics | 12.76M |
+| Phillies | Elementary Lectures in Statistical Mechanics | 12.73M |
 
 ## relativity
 
 | author | title | size |
 | ---- | ---- | ---- |
+| Foster & Nightingale | Short Course in General Relativity | 23.24M |
 | Liddle | Introduction to Modern Cosmology | 7.87M |
-| Hartle | Gravity | 10.84M |
 | Dray | Differential Forms and the Geometry of General Relativity | 2.40M |
-| Zee | Einstein Gravity in a Nutshell | 10.83M |
 | Schutz | First Course in General Relativity | 2.15M |
+| Zee | Einstein Gravity in a Nutshell | 10.83M |
 | Tong | Cosmology | 7.23M |
 | Tong | General Relativity | 2.86M |
 | Mukhanov | Physical Foundations of Cosmology | 2.56M |
-| Foster & Nightingale | Short Course in General Relativity | 23.24M |
 | Bambi | Introduction to General Relativity | 5.04M |
+| Hartle | Gravity | 10.84M |
 
 ## biology
 
@@ -734,6 +742,7 @@
 | Cancellieri | Polynmial Theory of Error Correcting | 16.14M |
 | Marzetta et al | Fundamentals of Massive MIMO | 2.70M |
 | Cover & Thomas | Elements of Information Theory | 3.99M |
+| Atakan | Molecular Communications and Nanonetworks | 3.40M |
 | Oppenheim & Verghese | Signals, Systems, and Inference | 4.70M |
 | Wing | Classical Circuit Theory | 2.42M |
 | Watrous | Theory of Quantum Information | 3.29M |
@@ -746,7 +755,6 @@
 | Hoffstein et al | Introduction to Mathematical Cryptography | 5.68M |
 | Haykins | Communication Systems | 12.71M |
 | Lin & Costello | Error Control Coding | 37.88M |
-| Atakan | Molecular Communications and Nanonetworks | 3.40M |
 | Oppenheim & Willsky | Signals and Systems | 22.75M |
 | Proakis & Salehi | Digital Communications | 20.51M |
 | Diósi | Quantum Information Theory | 2.71M |
@@ -761,39 +769,32 @@
 | author | title | size |
 | ---- | ---- | ---- |
 | Kusswurm | Modern X86 Assembly Language Programming | 5.92M |
-| Ramalho | Fluent Python | 7.44M |
-| Petersen | Mastering Emacs | 1.78M |
+| Ramalho | Fluent Python | 6.72M |
 | Brady | Type driven Development with Idris | 3.12M |
 | Meyers | Effective Modern C++ | 3.11M |
-| Hagen | Typographic Programming | 2.42M |
-| Hagen & Hoekwater | ConTeXt Reference Manual | 2.04M |
+| Petersen | Mastering Emacs | 1.78M |
 | Friedman | Little Schemer | 3.59M |
 | Knuth | TeXbook | 2.28M |
-| Klabnik & Nichols | Rust Programming Language | 3.09M |
 | Whitington | PDF Explained | 5.69M |
 | Friedman & Felleisen | Seasoned Schemer | 3.89M |
 | Alexandrescu | Modern C++ Design | 2.12M |
-| Pragma ADE Inc | ConTeXt Commands | 844.92K |
-| LuaTeX Team | LuaTeX Reference Manual | 1.45M |
+| Gustedt | Modern C | 2.07M |
 | Eijkhout | TeX by Topic | 1.44M |
 | Ierusalimschy | Programming in Lua | 2.58M |
-| Knuth | Tex82 | 3.40M |
-| Silverman | Git Pocket Guide | 7.63M |
-| Slatkin | Effective Python | 1.22M |
-| Mahboubi & Tassi | Mathematical Components | 1.69M |
+| Silverman | Git Pocket Guide | 1.07M |
+| Slatkin | Effective Python | 2.07M |
+| Mahboubi & Tassi | Mathematical Components | 1.25M |
 | Schwartz | Learning Perl | 7.62M |
 | Hastings et al | Hands On Start to Wolfram Mathematica | 14.45M |
 | Otten | ConTeXt Mark IV an Excursion | 2.71M |
 | Felleisen & Friedman | Little Java, A Few Patterns | 3.35M |
-| Pilgrim | Dive into Python 3 | 2.49M |
-| Albahari & Albahari | C Sharp 6 in a Nutshell | 7.73M |
+| Neil | Practical Vim | 1.53M |
 | Friedman et al | Reasoned Schemer | 1.77M |
-| Neil | Modern Vim | 981.11K |
 | Klemens | 21st Century C | 5.48M |
 | Bloch | Effective Java | 2.03M |
-| Coq Development Team | Coq Reference Manual | 4.56M |
-| Neil | Practical Vim | 1.53M |
-| Gustedt | Modern C | 2.07M |
+| Beazley & Jones | Python Cookbook | 2.61M |
+| Neil | Modern Vim | 981.11K |
+| Klabnik & Nichols | Rust Programming Language | 3.09M |
 | Abrahams et al | TeX for the Impatient | 1.28M |
 
 ## computer-science
@@ -807,12 +808,12 @@
 | Tanenbaum | Modern Operating Systems | 6.38M |
 | Knuth | Art of Computer Programming, vol 3 | 7.16M |
 | Chriswell | Formal Languages, Automata & Groups | 1.75M |
-| Li & Vitányi | Introduction to Kolmogorov Complexity | 8.20M |
 | Wegener | Complexity Theory | 2.22M |
 | Cormen et al | Introduction to Algorithms | 4.84M |
 | Matoušek & Gärtner | Understanding and Using Linear Programming | 2.34M |
 | Boyd & Vandenberghe | Convex Optimization | 5.73M |
 | Bertot & Castéran | Interactive Theorem Proving and Program Development | 10.96M |
+| Silbershatz et al | Operating System Concepts | 7.09M |
 | Friedman & Christiansen | Little Typer | 11.97M |
 | Kozen | Automata and Computability | 7.69M |
 | Dowek & Lévy | Introduction to the Theory of Programming Languages | 1.05M |
@@ -826,26 +827,26 @@
 | Bovet & Cesati | Understanding the Linux Kernel | 3.13M |
 | Cesa Bianchi & Lugosi | Prediction Learning and Games | 3.53M |
 | Nisan et al ed | Algorithmic Game Theory | 4.05M |
-| Patterson & Hennessy | Computer Organization and Design | 14.33M |
 | Diestel | Graph Theory | 4.55M |
 | Rosenberg | Pillars of Computation Theory | 3.13M |
+| Li & Vitányi | Introduction to Kolmogorov Complexity | 8.20M |
 | Foucart & Rauhut | Mathematical Introduction to Compressive Sensing | 6.09M |
-| Papadimitriou | Computational Complexity | 27.08M |
 | Robič | Foundations of Computability Theory | 5.00M |
 | Kozen | Theory of Computation | 3.34M |
 | Knuth | Art of Computer Programming, vol 4A | 12.37M |
+| Patterson & Hennessy | Computer Organization and Design | 14.33M |
 | Kostina | Lossy Data Compression | 2.10M |
 | Shalev Shwartz & Ben David | Understanding Machine Learning | 2.59M |
 | Stepanov & McJones | Elements of Programming | 888.50K |
 | Knuth | Art of Computer Programming, vol 2 | 6.42M |
 | Nesterov | Lectures on Convex Optimization | 6.02M |
 | Hopcroft | Motwani, & Ullman, Introduction to Automata Theory, Languages, and Computations | 10.24M |
+| Papadimitriou | Computational Complexity | 15.87M |
 | Vadhan | Pseudorandomness | 2.12M |
 | Kubat | Introduction to Machine Learning | 4.51M |
 | Arora & Barak | Computational complexity | 3.43M |
 | Kluge | Abstract Computing Machines | 3.11M |
 | Bürgisser | Algebraic Complexity Theory | 16.69M |
-| Silbershatz et al | Operating System Concepts | 7.09M |
 | Hazan | Introduction to Online Convex Optimization | 1.05M |
 
 # humanities
@@ -855,144 +856,145 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
-| 楊伯峻 | 春秋左傳注 | 55.51M |
-| Mumford | Essential World Atlas | 57.76M |
-| Zweig | Die Welt von gestern | 1.44M |
-| 韓兆琦 | 史记全注全译, vol 3 of 9 | 16.59M |
-| 韓兆琦 | 史记全注全译, vol 5 of 9 | 29.31M |
+| 韓兆琦 | 史记全注全译, vol 6 of 9 | 25.33M |
 | Page | A E Housman | 9.46M |
 | Bennett | Medieval Europe | 17.28M |
 | Dorn | Deutsche Seele | 3.39M |
 | Powell | Classical Myth | 28.68M |
 | Pais | Science & Life of Einstein | 29.54M |
-| 韓兆琦 | 史记全注全译, vol 1 of 9 | 26.58M |
-| Brook | Troubled Empire, History of Imperial China vol 5 | 2.85M |
+| 韓兆琦 | 史记全注全译, vol 3 of 9 | 16.59M |
 | Allen & Manuelian | Ancient Egyptian Pyramid Texts | 2.65M |
-| Lewis | China's Cosmopolitan Empire, History of Imperial China vol 3 | 3.48M |
-| McGrath | Christian Theology | 7.43M |
+| 司馬光 | 資治通鑑, part 5 of 7 | 3.97M |
+| 司馬光 | 資治通鑑, part 7 of 7 | 3.01M |
 | Ross et al | Corporate Finance | 19.51M |
-| Kuhn | Age of Confucian Rule, History of Imperial China vol 4 | 8.29M |
+| Zweig | Die Welt von gestern | 1.44M |
 | Lewis | Early Chinese Empires, History of Imperial China vol 1 | 3.63M |
+| Rowe | China's Last Empire, History of Imperial China vol 6 | 2.68M |
 | Cooper | Beethoven | 2.83M |
 | Kuhn | Copernican Revolution | 9.71M |
+| Mumford | Essential World Atlas | 57.76M |
 | Norman | Philological Approach to Buddhism | 2.20M |
-| 司馬光 | 資治通鑑, part 6 of 7 | 4.34M |
+| 楊伯峻 | 春秋左傳注 | 55.51M |
+| Loewe | Cambridge History of Ancient China | 45.09M |
 | Mankiw | Macroeconomics | 26.17M |
 | Peters | Game Theory | 6.55M |
-| 司馬光 | 資治通鑑, part 2 of 7 | 3.55M |
-| 司馬光 | 資治通鑑, part 1 of 7 | 3.86M |
 | 韓兆琦 | 史记全注全译, vol 7 of 9 | 26.77M |
-| Thucydides | Peloponnesian War | 4.35M |
-| 韓兆琦 | 史记全注全译, vol 6 of 9 | 25.33M |
-| Palmer | Taking Humour Seriously | 1.29M |
-| 韓兆琦 | 史记全注全译, vol 9 of 9 | 22.22M |
+| 司馬光 | 資治通鑑, part 6 of 7 | 4.34M |
 | Powell | Homer | 1.48M |
-| 韓兆琦 | 史记全注全译, vol 4 of 9 | 25.46M |
-| 司馬光 | 資治通鑑, part 5 of 7 | 3.97M |
+| 司馬光 | 資治通鑑, part 2 of 7 | 3.55M |
+| 韓兆琦 | 史记全注全译, vol 8 of 9 | 24.06M |
+| Palmer | Taking Humour Seriously | 1.29M |
+| 韓兆琦 | 史记全注全译, vol 5 of 9 | 29.31M |
+| Kuhn | Age of Confucian Rule, History of Imperial China vol 4 | 8.29M |
 | Van Dalen | L E J Brouwer | 10.98M |
 | Sowell | Applied Economics | 1001.62K |
-| 韓兆琦 | 史记全注全译, vol 2 of 9 | 20.18M |
-| Cameron | Byzantines | 7.93M |
-| 韓兆琦 | 史记全注全译, vol 8 of 9 | 24.06M |
+| Lewis | China between Empires, History of Imperial China vol 2 | 3.81M |
+| 韓兆琦 | 史记全注全译, vol 1 of 9 | 26.58M |
+| Brook | Troubled Empire, History of Imperial China vol 5 | 2.85M |
+| Palmer et al | History of Europe in the Modern World | 43.38M |
+| Lewis | China's Cosmopolitan Empire, History of Imperial China vol 3 | 3.48M |
 | Dasgupta | Economics | 1.28M |
+| 韓兆琦 | 史记全注全译, vol 4 of 9 | 25.46M |
+| 司馬光 | 資治通鑑, part 1 of 7 | 3.86M |
+| 司馬光 | 資治通鑑, part 3 of 7 | 3.46M |
+| 韓兆琦 | 史记全注全译, vol 2 of 9 | 20.18M |
 | Samuelson & Nordhaus | Economics | 32.07M |
 | Webb | Game Theory | 1.90M |
-| Rowe | China's Last Empire, History of Imperial China vol 6 | 2.68M |
-| Lewis | China between Empires, History of Imperial China vol 2 | 3.81M |
-| Loewe | Cambridge History of Ancient China | 45.09M |
-| 司馬光 | 資治通鑑, part 7 of 7 | 3.01M |
-| 司馬光 | 資治通鑑, part 3 of 7 | 3.46M |
+| McGrath | Christian Theology | 7.43M |
+| Thucydides | Peloponnesian War | 4.35M |
+| 韓兆琦 | 史记全注全译, vol 9 of 9 | 22.22M |
+| Cameron | Byzantines | 7.93M |
 | 司馬光 | 資治通鑑, part 4 of 7 | 4.56M |
-| Palmer et al | History of Europe in the Modern World | 43.38M |
 
 ## languages
 
 | author | title | size |
 | ---- | ---- | ---- |
+| Ross & Ma | Modern Mandarin Chinese Grammar | 1.87M |
 | University of Chicago Press pub | Chicago Manual of Style | 30.68M |
-| Geer | Essential Words for the GRE | 1.13M |
-| Li & Thompson | Mandarin Chinese | 15.93M |
-| 湯可敬 | 說文解字今釋 | 59.29M |
+| Ørberg | Lingva Latina | 20.55M |
 | 王力 | 中国现代语法 | 13.17M |
 | Yip & Rimmington | Chinese | 5.59M |
+| 王力 | 同源字典 | 30.60M |
 | Schuessler | ABC Etymological Dictionary of Old Chinese | 26.65M |
 | Ladefoged & Disner | Vowels and Consonants | 15.15M |
-| Donaldson | German | 931.77K |
+| Davies | Frequency Dictionary of Contemporary American English | 2.20M |
 | Kamermans | Introduction to Japanese | 5.06M |
 | 王力 et al | 古汉语常用字字典 | 35.85M |
-| Duff | Elements of New Testament Greek | 1.76M |
-| Durrell | Hammer's German Grammar and Usage | 2.15M |
-| Morwood | Oxford Grammar of Classical Greek | 4.77M |
-| Hawkins & Towell | French Grammar and Usage | 1.44M |
-| 王力 | 同源字典 | 30.60M |
-| Leech & Svartvik | Communicative Grammar of English | 10.30M |
-| 季旭昇 | 說文新證 | 27.66M |
-| Lang & Perez | Modern French Grammar | 1.53M |
-| Proudfoot & Cardo | Modern Italian Grammar | 1.52M |
-| Baxter & Sagart | Old Chinese | 7.55M |
-| Van Valin | Introduction to Syntax | 6.40M |
 | Dunn & Khairov | Modern Russian Grammar | 2.73M |
+| Dodd et al | Modern German Grammar | 1.66M |
+| Baxter & Sagart | Old Chinese | 3.82M |
+| Holton et al | Greek | 958.78K |
+| 湯可敬 | 說文解字今釋 | 59.29M |
 | Tschirner & Möhring | Frequency Dictionary of German | 1.22M |
-| Morwood | Latin Grammar | 4.02M |
-| Ørberg | Lingva Latina | 20.55M |
+| Van Valin | Introduction to Syntax | 6.40M |
+| Kaiser et al | Japanese | 2.63M |
+| Durrell | Hammer's German Grammar and Usage | 2.15M |
 | Korb | German for Reading Knowledge | 1.70M |
 | McGloin et al | Modern Japanese Grammar | 5.23M |
-| Dodd et al | Modern German Grammar | 1.66M |
+| Lang & Perez | Modern French Grammar | 1.53M |
 | Luschnig | Introduction to Ancient Greek | 2.78M |
 | Ryding | Reference Grammar of Modern Standard Arabic | 6.00M |
 | Mallory & Adams | Proto Indo European and the Proto Indo European World | 10.96M |
 | Carnie | Syntax | 2.19M |
-| 王力 | 诗词格律概要 | 6.11M |
 | Sagart | Roots of Old Chinese | 9.77M |
-| Thacker & d'Angelo | Essential French Grammar | 2.33M |
+| 季旭昇 | 說文新證 | 27.66M |
+| Proudfoot & Cardo | Modern Italian Grammar | 1.52M |
+| Donaldson | German | 931.77K |
 | Carr | Phonology | 12.26M |
 | Huddleston & Pullum eds | Cambridge Grammar of the English Language | 21.09M |
 | Ruppel | Cambridge Introduction to Sanskrit | 7.10M |
 | Lin | Taiwanese Grammar | 16.73M |
 | Hayes | Introductory Phonology | 3.42M |
-| Holton et al | Greek | 958.78K |
+| 王力 et al | 古代汉语 | 49.36M |
+| Leech & Svartvik | Communicative Grammar of English | 10.30M |
 | LaFleur | Wheelock's Latin | 16.61M |
+| Geer | Essential Words for the GRE | 1.13M |
+| Morwood | Oxford Grammar of Classical Greek | 4.77M |
 | Ringe & Eska | Historical Linguistics | 1.66M |
 | Mastronarde | Introduction to Attic Greek | 3.88M |
-| Kaiser et al | Japanese | 2.63M |
+| Morwood | Latin Grammar | 4.02M |
 | Kroeger | Analyzing Grammar | 1.93M |
 | Ladefoged & Johnson | Course in Phonetics | 10.10M |
+| Thacker & d'Angelo | Essential French Grammar | 2.33M |
 | Duden | Die Grammatik | 18.59M |
+| Duff | Elements of New Testament Greek | 1.76M |
 | Cowen | Complete Lojban Language | 5.99M |
-| 王力 et al | 古代汉语 | 49.36M |
 | 呂叔湘 | 現代漢語八百詞 | 15.98M |
+| Hawkins & Towell | French Grammar and Usage | 1.44M |
 
 ## philosophy
 
 | author | title | size |
 | ---- | ---- | ---- |
 | Nietzsche | Morgenröte und die fröhliche Wissenschaft | 18.20M |
-| Kierkegaard | Essential Kierkegaard | 2.60M |
-| Hitchcock ed | Contemporary Debates in Philosophy of Science | 1.68M |
-| Nietzsche | Nietzsche Reader | 3.93M |
-| Plato | Complete Works | 7.68M |
-| Smith & Somers Hall ed | Cambridge Companion to Deleuze | 3.38M |
-| Bowie | Introduction to German Philosophy | 3.10M |
-| Shafer Landau ed | Ethical Theory | 7.15M |
+| Cicero | On Duties | 11.27M |
+| Tahko | Metametaphysics | 1.23M |
+| Boethius | Consolation of Philosophy | 11.48M |
+| Plato | Euthyphro, Apology, Crito, Phaedo, and Phaedrus | 14.98M |
 | Mill | On Liberty, Utilitarianism and Other Essays | 4.48M |
+| Plato | Complete Works | 7.68M |
+| Heil ed | Philosophy of Mind | 33.58M |
+| Plato | Lysis, Symposium, and Gorgias | 14.78M |
+| Bowie | Introduction to German Philosophy | 9.63M |
+| Shafer Landau ed | Ethical Theory | 7.15M |
+| Griffin ed | Cambridge Companion to Russell | 1.94M |
 | Kim & Sosa ed | Metaphysics | 35.65M |
 | Davidson | Essential Davidson | 1.08M |
-| Cicero | On the Nature of the Gods | 17.75M |
-| Griffin ed | Cambridge Companion to Russell | 1.94M |
-| Sider et al ed | Contemporary Debates in Metaphysics | 1.79M |
+| 木田元 | 反哲学入门 | 5.37M |
+| Kierkegaard | Essential Kierkegaard | 2.60M |
 | Taylor | Hegel | 6.71M |
-| Heil ed | Philosophy of Mind | 33.58M |
+| Nietzsche | On the Genealogy of Morality | 1.06M |
+| Cicero | On the Nature of the Gods | 17.75M |
 | Williamson | Philosophy of Philosophy | 1.05M |
 | Sosa et al ed | Epistemology | 44.38M |
-| Tahko | Metametaphysics | 1.23M |
-| 木田元 | 反哲学入门 | 5.37M |
 | Nietzsche | From the Late Notebooks | 8.83M |
-| Nietzsche | On the Genealogy of Morality | 1.06M |
 | Gallagher | Phenomenology | 1.83M |
-| Plato | Lysis, Symposium, and Gorgias | 14.78M |
-| Plato | Euthyphro, Apology, Crito, Phaedo, and Phaedrus | 14.98M |
-| Cicero | On Duties | 11.27M |
+| Sider et al ed | Contemporary Debates in Metaphysics | 1.79M |
+| Smith & Somers Hall ed | Cambridge Companion to Deleuze | 3.38M |
+| Hitchcock ed | Contemporary Debates in Philosophy of Science | 1.68M |
 | Cicero | On Ends | 14.32M |
+| Nietzsche | Nietzsche Reader | 3.93M |
 | Wittgenstein | Philosophical Investigations, en face | 2.62M |
 | Peterson & Vanarragon ed | Contemporary Debates in Philosophy of Religion | 1.63M |
 
@@ -1000,17 +1002,17 @@
 
 | author | title | size |
 | ---- | ---- | ---- |
-| Silman | Complete Endgame Course | 15.10M |
 | Livshitz | Grandmaster Challenge | 3.42M |
-| Collins | Understanding the Chess Openings | 4.93M |
-| Fuse | Complete Book of Origami Polyhedra | 8.13M |
 | Silman | Amateur's Mind | 8.85M |
 | Gaprindashvili | Imagination in Chess | 9.72M |
 | Seirawan & Silman | Winning Chess Strategies | 6.09M |
+| Fuse | Complete Book of Origami Polyhedra | 8.13M |
 | Livshitz | Master Challenge | 3.97M |
+| Silman | Complete Endgame Course | 15.10M |
+| Berlekamp et al | Winning Ways for Your Mathematical Plays | 18.19M |
 | 趙褆 | 八極拳考 | 8.95M |
 | Seirawan | Winning Chess Combinations | 5.23M |
-| Rios | Chess Structures | 8.61M |
-| Sibbing & Wijgerden | Learning Chess | 33.85M |
-| Berlekamp et al | Winning Ways for Your Mathematical Plays | 18.19M |
 | Neishtadt | Improve Your Chess Tactics | 7.74M |
+| Collins | Understanding the Chess Openings | 4.93M |
+| Rios | Chess Structures | 9.14M |
+| Sibbing & Wijgerden | Learning Chess | 33.85M |

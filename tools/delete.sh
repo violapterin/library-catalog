@@ -11,22 +11,22 @@ main()
 
    echo "= = = deleting from page ${START} to page ${STOP} of document ${IN} ..."
    total="$(${HERE}/count.sh ${IN})"
-   if [ "${STOP}" -eq 1 ]; then
+   if [ "${START}" -eq 1 ]; then
       set -x
       gs \
          -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
          -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-         -dFirstPage=2 \
+         -dFirstPage="$(($STOP+1))" \
          -sOutputFile="${bare}.pdf" \
          "${IN}"
       { set +x; } 2>/dev/null
       exit 0
-   elif [ "${START}" -eq "${total}" ]; then
+   elif [ "${STOP}" -eq "${total}" ]; then
       set -x
       gs \
          -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
          -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-         -dFirstPage="$(($total-1))" \
+         -dLastPage="$(($START-1))" \
          -sOutputFile="${bare}.pdf" \
          "${IN}"
       { set +x; } 2>/dev/null
