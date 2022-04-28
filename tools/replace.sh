@@ -3,20 +3,21 @@
 main()
 {
    HERE="$(dirname $0)"
-   CUT="$1"
-   PATCH="$2"
-   IN="$3"
-   OUT="$4"
+   LEFT="$1"
+   RIGHT="$2"
+   PATCH="$3"
+   IN="$4"
+   OUT="$5"
    bare="${OUT%.*}"
 
-   echo "= = = inserting at page ${CUT} of document ${IN} ..."
+   echo "= = = replacing page ${LEFT} to ${RIGHT} of document ${IN} ..."
    total="$(${HERE}/count.sh ${IN})"
-   if [ "${CUT}" -eq 1 ]; then
+   if [ "${LEFT}" -eq 1 ]; then
       set -x
       "${HERE}/combine.sh" "${PATCH}" "${IN}" "${OUT}"
       { set +x; } 2>/dev/null
       exit 0
-   elif [ "${CUT}" -eq "${total}" ]; then
+   elif [ "${RIGHT}" -eq "${total}" ]; then
       set -x
       "${HERE}/combine.sh" "${IN}" "${PATCH}" "${OUT}"
       { set +x; } 2>/dev/null
@@ -26,13 +27,13 @@ main()
    gs \
       -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
       -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-      -dLastPage="$(($CUT-1))" \
+      -dLastPage="$(($LEFT-1))" \
       -sOutputFile="${bare}-x.pdf" \
       "${IN}"
    gs \
       -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
       -dSAFER -dBATCH -dNOPAUSE -dQUIET \
-      -dFirstPage="${CUT}" \
+      -dFirstPage="$(($RIGHT+1))" \
       -sOutputFile="${bare}-y.pdf" \
       "${IN}"
    "${HERE}/combine.sh" "${bare}-x.pdf" "${PATCH}" "${bare}-y.pdf" "${OUT}"
@@ -46,10 +47,11 @@ main()
 check()
 {
    HERE="$(dirname $0)"
-   CUT="$1"
-   PATCH="$2"
-   IN="$3"
-   OUT="$4"
+   LEFT="$1"
+   RIGHT="$2"
+   PATCH="$3"
+   IN="$4"
+   OUT="$5"
    if [ ! command -v gs &> /dev/null ]; then
       echo "Please install ghostscript."
       exit 1
@@ -62,8 +64,12 @@ check()
       echo "Script combine.sh is not found."
       exit 1
    fi
-   if [ -z "${CUT}" ]; then
-      echo "Please provide the page to be cut."
+   if [ -z "${LEFT}" ]; then
+      echo "Please provide the starting page to be replaced."
+      exit 1
+   fi
+   if [ -z "${RIGHT}" ]; then
+      echo "Please provide the stopping page to be replaced."
       exit 1
    fi
    if [ -z "${PATCH}" ]; then
