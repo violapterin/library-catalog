@@ -16,35 +16,39 @@ main()
    echo "= = = shifting page ${PAGE} of ${IN}, ${LEFT} from left and ${BOTTOM} from bottom ..."
    total="$(${HERE}/count.sh ${IN})"
    flag=1
-   if [ "$PAGE" -gt 1 ]; then
+   if [ "${PAGE}" -gt 1 ]; then
+      rm -f "a-${IN}"
       "${HERE}/extract.sh" 1 "$(($PAGE-1))" "${IN}" "a-${IN}"
    else
       flag=0
    fi
-   if [ "$PAGE" -lt "$total" ]; then
+   if [ "${PAGE}" -lt "${total}" ]; then
+      rm -f "c-${IN}"
       "${HERE}/extract.sh" "$(($PAGE+1))" "${total}" "${IN}" "c-${IN}"
    else
       flag=2
    fi
+   rm -f "b-${IN}" "bg-${IN}"
    "${HERE}/extract.sh" "${PAGE}" "${PAGE}" "${IN}" "b-${IN}"
-
    "${HERE}/shift.sh" "${LEFT}" "${BOTTOM}" "b-${IN}" "bg-${IN}"
 
    if [ "$flag" -eq 0 ]; then
-      echo 0: $flag
+      set -x
       "${HERE}/combine.sh" "bg-${IN}" "c-${IN}" "${OUT}"
-      rm "c-${IN}"
+      { set +x; } 2>/dev/null
+      rm -f "c-${IN}"
    elif [ "$flag" -eq 1 ]; then
       set -x
       "${HERE}/combine.sh" "a-${IN}" "bg-${IN}" "c-${IN}" "${OUT}"
-      set +x
-      rm "a-${IN}" "c-${IN}"
+      { set +x; } 2>/dev/null
+      rm -f "a-${IN}" "c-${IN}"
    elif [ "$flag" -eq 2 ]; then
-      echo 2: $flag
+      set -x
       "${HERE}/combine.sh" "a-${IN}" "bg-${IN}" "${OUT}"
-      rm "a-${IN}"
+      { set +x; } 2>/dev/null
+      rm -f "a-${IN}"
    fi
-   rm "b-${IN}" "bg-${IN}"
+   rm -f "b-${IN}" "bg-${IN}"
 }
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

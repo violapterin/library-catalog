@@ -12,7 +12,7 @@ main()
       exit 1
    fi
 
-   echo "= = = shifting ${PATH_IN}, ${START} from left and ${END} from bottom ..."
+   echo "= = = shifting ${PATH_IN}, ${LEFT} from left and ${BOTTOM} from bottom ..."
    set -x
    ${ghostscript} \
       -sDEVICE=pdfwrite \
